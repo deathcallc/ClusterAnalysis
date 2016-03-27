@@ -13,7 +13,7 @@
   </head>
   <body>
   this is a jsp.
-  <jsp:forward page="/jsp/welcome.jsp"/>
+  <jsp:forward page="/jsp/preprocess/k-core.jsp"/>
   test
   </body>
 </html>
