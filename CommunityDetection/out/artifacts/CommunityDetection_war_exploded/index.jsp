@@ -13,7 +13,7 @@
   </head>
   <body>
   this is a jsp.
-  <jsp:forward page="/jsp/preprocess/k-core.jsp"/>
+  <jsp:forward page="/jsp/similarity/distance-cos.jsp"/>
   test
   </body>
 </html>
