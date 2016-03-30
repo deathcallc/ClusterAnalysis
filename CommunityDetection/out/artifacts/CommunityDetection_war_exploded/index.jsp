@@ -13,7 +13,7 @@
   </head>
   <body>
   this is a jsp.
-  <jsp:forward page="/jsp/similarity/distance-cos.jsp"/>
+  <jsp:forward page="/jsp/cluster/ssc-cluster.jsp"/>
   test
   </body>
 </html>
