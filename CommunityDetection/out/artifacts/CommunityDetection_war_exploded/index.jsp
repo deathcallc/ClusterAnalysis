@@ -13,7 +13,7 @@
   </head>
   <body>
   this is a jsp.
-  <jsp:forward page="/jsp/display/index_list.jsp"/>
+  <jsp:forward page="/jsp/preprocess/laplace-inverse.jsp"/>
   test
   </body>
 </html>

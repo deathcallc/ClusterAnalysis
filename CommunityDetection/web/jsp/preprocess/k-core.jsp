@@ -89,27 +89,17 @@
 
   </div>
   <div class="main-content">
-
+    <img src="images/webpic/k-core/k-core.png" class="pull-right inline-img hidden-xs" style="max-width:40%; margin-left:1em; margin-top:2em">
     <h3>算法介绍</h3>
-    谱聚类是一类基于谱图理论的聚类方法，其主要思想是通过构建给定数据集的相似度矩阵，将数据集转化为无向图的形式，从而将聚类问题转化为图分割问题。<br/><br/>
+    k-core分解主要用于获取网络中重要的节点。其中k为用户参数，表示节点的度数。具体步骤如下：<br/><br/>
 
-    给定数据集 <img src="images/equation/spectral-cluster/s_cdot.png" />，以及常数k，k表示我们希望得到的簇的个数。则谱聚类的大致步骤如下：<br/><br/>
+    1）计算网络中所有节点的度，将网络中所有度小于等于k的节点以及与节点相连的边全部剔除掉。<br/><br/>
 
-    1）选择适合的相似性度量函数，计算出数据集对应相似度矩阵A。其中相似度矩阵A必须满足对称且非负，即 <img src="images/equation/spectral-cluster/asi_ge0.png" />。<br/><br/>
+    2）更新网络中所有节点的度，重复步骤1）直到网络中不再有度小于等于k的节点为止。<br/><br/>
 
-    2）计算相似度矩阵A的度矩阵D，以及其相应的拉普拉斯矩阵L。其中度矩阵D的对角线元素 D(i,i)为相似度矩阵A第i行的各元素之和，非对角线元素皆为0。拉普拉斯矩阵的计算公式如下：<br/><br/>
-
-    <img src="images/equation/spectral-cluster/laplace.png" style="margin-left:300px;" /><br/>
-
-    3）计算拉普拉斯矩阵L的特征值和特征向量。选择其中最大的k个特征值，取其对应的特征向量，组成矩阵X，<img src="images/equation/spectral-cluster/x_rn.png" />。<br/><br/>
-
-    4）将矩阵X的各行正则化，得到矩阵X'。正则化公式如下：<br/><br/>
-
-    <img src="images/equation/spectral-cluster/x_normal.png" style="margin-left:300px;" /><br/>
-
-    5）将矩阵X'的第i行数据看作是一个存在于k维空间中的数据点，然后使用诸如k-mean等其他聚类算法对矩阵X'进行聚类。得到聚类结果之后，将<img src="images/equation/spectral-cluster/xi.png" />与数据集S中的<img src="images/equation/spectral-cluster/si.png" />一一对应即可得到最终的聚类结果。<br/><br/>
-
-    从谱聚类的步骤中不难发现，在步骤2)中获得相似度矩阵A之后就可以直接通过其他的聚类方法获得聚类结果，谱聚类相对于其他的聚类方法多出了步骤3)和步骤4)。由于矩阵中，特征值的大小代表了其对应的特征向量对于矩阵的重要程度，特征值越大，则其对应的特征向量越重要。而谱聚类正是通过截取相似度矩阵中前k个最大特征值对应的特征向量，将相似度矩阵中冗余和无关的部分剔除，从而使得谱聚类相比其他聚类方法能够获得更加准确的结果。而同样的，对比其他的聚类方法，谱聚类也存在一些缺陷，其时间复杂度过高。由于谱聚类需要计算相似度矩阵的特征值和特征向量，矩阵特征值计算的时间复杂度为的<img src="images/equation/spectral-cluster/o3.png" />，这就导致了谱聚类的可伸缩性差。在处理对象较多的数据集时，谱聚类往往需要花费较长的时间。<br/><br/>
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
 
 
     <a href="index.html" class="btn btn-primary pull-right" style="margin-top:20px;">使用该算法</a>
