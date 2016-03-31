@@ -13,7 +13,7 @@
   </head>
   <body>
   this is a jsp.
-  <jsp:forward page="/jsp/preprocess/laplace-inverse.jsp"/>
+  <jsp:forward page="/jsp/similarity/distance-euc.jsp"/>
   test
   </body>
 </html>
