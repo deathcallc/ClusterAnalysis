@@ -13,7 +13,7 @@
   </head>
   <body>
   this is a jsp.
-  <jsp:forward page="/jsp/cluster/ssc-cluster.jsp"/>
+  <jsp:forward page="/jsp/display/index_list.jsp"/>
   test
   </body>
 </html>
