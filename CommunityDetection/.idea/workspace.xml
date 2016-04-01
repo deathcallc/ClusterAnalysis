@@ -2,105 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40aff1ae-e952-4239-9ca0-d383572f0a4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-logging-1.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-aspects-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-batch-core-2.2.6.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-batch-infrastructure-2.2.6.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-beans-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-binding-2.4.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-core-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-data-jpa-1.3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-expression-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-faces-2.4.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-instrument-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-instrument-tomcat-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-amqp-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-core-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-event-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-feed-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-file-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-ftp-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-gemfire-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-groovy-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-http-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-ip-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-jdbc-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-jms-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-jmx-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-jpa-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-mail-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-mongodb-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-mqtt-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-redis-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-rmi-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-scripting-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-security-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-sftp-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-stream-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-syslog-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-test-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-twitter-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-ws-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-xml-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-integration-xmpp-4.0.3.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-jms-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-js-2.4.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-js-resources-2.4.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-messaging-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-orm-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-oxm-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-security-acl-3.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-security-aspects-3.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-security-cas-3.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-security-config-3.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-security-core-3.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-security-crypto-3.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-security-ldap-3.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-security-openid-3.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-security-remoting-3.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-security-taglibs-3.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-security-web-3.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-test-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-web-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-webflow-2.4.0.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-webmvc-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-webmvc-portlet-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-websocket-4.2.5.RELEASE.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spring-ws.jar" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\backport-util-concurrent.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\imageinfo-1.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\javaee.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\jaxen-1.1-beta-6.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\mail.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\ojdbc5.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-aspects-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-beans-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-core-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-expression-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-instrument-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-instrument-tomcat-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-jms-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-messaging-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-orm-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-oxm-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-test-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-web-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-webmvc-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-webmvc-portlet-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\lib\spring-websocket-4.1.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="G:\github\CommunityDetection\src\c3p0.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommunityDetection.iml" afterPath="$PROJECT_DIR$/CommunityDetection.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/CommunityDetection_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/CommunityDetection_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CommunityDetection_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/CommunityDetection_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="G:\github\CommunityDetection\lib\spring-aop-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/lib/spring-aop-4.2.5.RELEASE.jar" />
-      <change type="MOVED" beforePath="G:\github\CommunityDetection\lib\spring-context-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/lib/spring-context-4.2.5.RELEASE.jar" />
-      <change type="MOVED" beforePath="G:\github\CommunityDetection\lib\spring-context-support-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/lib/spring-context-support-4.2.5.RELEASE.jar" />
-      <change type="MOVED" beforePath="G:\github\CommunityDetection\lib\spring-jdbc-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/lib/spring-jdbc-4.2.5.RELEASE.jar" />
-      <change type="MOVED" beforePath="G:\github\CommunityDetection\lib\spring-tx-4.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/lib/spring-tx-4.2.5.RELEASE.jar" />
     </list>
     <ignored path="CommunityDetection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -830,7 +732,7 @@
       <workItem from="1459510878128" duration="27000" />
       <workItem from="1459510931654" duration="3836000" />
       <workItem from="1459520525442" duration="1433000" />
-      <workItem from="1459521997706" duration="522000" />
+      <workItem from="1459521997706" duration="864000" />
     </task>
     <task id="LOCAL-00001" summary="base">
       <created>1459066522439</created>
@@ -898,11 +800,17 @@
       <option name="project" value="LOCAL" />
       <updated>1459414334484</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="distance page">
+      <created>1459522541742</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1459522541742</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90982000" />
+    <option name="totallyTimeSpent" value="91324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
