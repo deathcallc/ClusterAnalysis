@@ -13,7 +13,7 @@
   </head>
   <body>
   this is a jsp.
-  <jsp:forward page="/jsp/similarity/distance-euc.jsp"/>
+  <jsp:forward page="/jsp/welcome.jsp"/>
   test
   </body>
 </html>

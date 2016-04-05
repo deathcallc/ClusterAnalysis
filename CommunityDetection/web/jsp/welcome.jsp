@@ -97,17 +97,17 @@
       <h3 class="page-tagline" style="margin-top: 2em;">集成采集、分析、展示一体的科研仿真系统</h3>
 
       <div>
-        <img src="images/preview/14.png" class="pull-right inline-img hidden-xs" style="max-width: 35%; margin-left: 1em;">
+        <img src="<c:url value="/resource/images/preview/14.png"/>" class="pull-right inline-img hidden-xs" style="max-width: 35%; margin-left: 1em;">
         <h2 class="page">系统概述</h2>
         <p>多关系社交网络挖掘系统主要包含多源异构数据的采集，社团检测，结果分析以及展示等功能。该系统前段使用了css/html、JQuery进行开发，在社团划分结果的展示上采用了开源的JavaScript库D3，这使得社团划分结果的展示更加直观而形象。系统的后端使用了Java语言开发，并且使用了轻量级的开源框架spring和Mybatis，框架的使用大大提高了系统的开发效率和可维护性。此外，针对多源异构数据集来源多样复杂的特点，系统在设计的过程中融入了多种设计模式，使得满足开放-关闭原则的同时，在数据采集，清洗和分析等功能的扩展上能够表现出更强的灵活性，以更好地解决由于数据集多样所带来的在数据清洗和分析方法上的不确定性的问题。</p>
 
         <h2 class="page">社团分析</h2>
-        <img src="images/preview/8.png" class="pull-left inline-img hidden-xs" style="max-width: 35%; margin-top: -4em; margin-right: 2.25em;">
+        <img src="<c:url value="/resource/images/preview/8.png"/>" class="pull-left inline-img hidden-xs" style="max-width: 35%; margin-top: -4em; margin-right: 2.25em;">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ligula sed est aliquam accumsan. Phasellus eleifend fermentum ullamcorper. Nulla mi mi, egestas id tortor non, auctor consectetur mi. Praesent in ante dolor. Proin pharetra nec augue quis imperdiet. Vestibulum ullamcorper nulla sodales, scelerisque velit et, adipiscing arcu. Suspendisse eu accumsan neque. Suspendisse potenti. Quisque non lectus elementum elit convallis ornare aliquam sit amet metus. Vestibulum ut turpis ipsum. Sed ut malesuada enim, in interdum lorem. Nulla facilisi.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ligula sed est aliquam accumsan. Phasellus eleifend fermentum ullamcorper.</p>
 
         <h2 class="page" style="clear:both;">数据展示</h2>
-        <img src="images/preview/d3.png" class="pull-right inline-img hidden-xs" style="max-width: 35%; margin-top: -4em; margin-left: 1em;">
+        <img src="<c:url value="/resource/images/preview/d3.png"/>" class="pull-right inline-img hidden-xs" style="max-width: 35%; margin-top: -4em; margin-left: 1em;">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ligula sed est aliquam accumsan. Phasellus eleifend fermentum ullamcorper. Nulla mi mi, egestas id tortor non, auctor consectetur mi. Praesent in ante dolor. Proin pharetra nec augue quis imperdiet. Vestibulum ullamcorper nulla sodales, scelerisque velit et, adipiscing arcu. Suspendisse eu accumsan neque. Suspendisse potenti. Quisque non lectus elementum elit convallis ornare aliquam sit amet metus. Vestibulum ut turpis ipsum. Sed ut malesuada enim, in interdum lorem. Nulla facilisi.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ligula sed est aliquam accumsan. Phasellus eleifend fermentum ullamcorper. Nulla mi mi, egestas id tortor non, auctor consectetur mi.</p>
 
@@ -381,7 +381,7 @@
 </div>
 
 
-<script src="<c:url value="/lib/bootstrap/js/bootstrap.js"/>"></script>
+<script src="<c:url value="/resource/lib/bootstrap/js/bootstrap.js"/>"></script>
 <script type="text/javascript">
   $("[rel=tooltip]").tooltip();
   $(function() {

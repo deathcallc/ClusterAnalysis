@@ -16,11 +16,11 @@
 <meta name="author" content="">
 
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="<c:url value="/lib/bootstrap/css/bootstrap.css"/>">
-<link rel="stylesheet" href="<c:url value="/lib/font-awesome/css/font-awesome.css"/>">
+<link rel="stylesheet" type="text/css" href="<c:url value="/resource/lib/bootstrap/css/bootstrap.css"/>">
+<link rel="stylesheet" href="<c:url value="/resource/lib/font-awesome/css/font-awesome.css"/>">
 
-<script src="<c:url value="/lib/jquery-1.11.1.min.js"/>" type="text/javascript"></script>
-<script src="<c:url value="/lib/jQuery-Knob/js/jquery.knob.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resource/lib/jquery-1.11.1.min.js"/>" type="text/javascript"></script>
+<script src="<c:url value="/resource/lib/jQuery-Knob/js/jquery.knob.js"/>" type="text/javascript"></script>
 
-<link rel="stylesheet" type="text/css" href="<c:url value="/css/theme.css"/>">
-<link rel="stylesheet" type="text/css" href="<c:url value="/css/premium.css"/>">
+<link rel="stylesheet" type="text/css" href="<c:url value="/resource/css/theme.css"/>">
+<link rel="stylesheet" type="text/css" href="<c:url value="/resource/css/premium.css"/>">
