@@ -82,7 +82,7 @@
     <ul>
       <h1 class="page-title">谱聚类算法</h1>
       <ul class="breadcrumb">
-        <li><a href="index.html">主页</a></li>
+        <li><a href="http://localhost:8080/index.do">主页</a></li>
         <li class="active">谱聚类</li>
       </ul>
 

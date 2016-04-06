@@ -83,7 +83,7 @@
     <ul>
       <h1 class="page-title">欧氏距离</h1>
       <ul class="breadcrumb">
-        <li><a href="index.html">主页</a></li>
+        <li><a href="http://localhost:8080/index.do">主页</a></li>
         <li class="active">欧氏距离</li>
       </ul>
 

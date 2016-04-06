@@ -83,7 +83,7 @@
     <ul>
       <h1 class="page-title">马氏距离</h1>
       <ul class="breadcrumb">
-        <li><a href="index.html">主页</a></li>
+        <li><a href="http://localhost:8080/index.do">主页</a></li>
         <li class="active">马氏距离</li>
       </ul>
 
