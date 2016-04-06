@@ -17,11 +17,18 @@ public class DataSetController {
 
     private static Logger log = LoggerFactory.getLogger(DataSetController.class);
 
-    @RequestMapping(value="/view", method= RequestMethod.GET)
-    public String gotoDBLPPage(String id, Model model)
+    @RequestMapping(value="/dblp", method= RequestMethod.GET)
+    public String gotoDBLPPage(Model model)
     {
-        log.debug("In viewCourse, courseId = {}", id);
+//        log.debug("In viewCourse, courseId = {}", id);
         return "/dataset/dataset-dblp-intro";
+    }
+
+    @RequestMapping(value="/sp500", method= RequestMethod.GET)
+    public String gotoSP500Page(Model model)
+    {
+//        log.debug("In viewCourse, courseId = {}", id);
+        return "/dataset/dataset-sp500-intro";
     }
 
 }

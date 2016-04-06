@@ -10,8 +10,8 @@
 <ul>
   <li><a href="#" data-target=".dashboard-menu" class="nav-header" data-toggle="collapse"><i class="fa fa-fw fa-dashboard"></i> 数据采集<i class="fa fa-collapse"></i></a></li>
   <li><ul class="dashboard-menu nav nav-list collapse in">
-    <li><a href="cd-dataset-sp500-intro.html"><span class="fa fa-caret-right"></span> 标普500数据集</a></li>
-    <li><a href="cd-dataset-dblp-intro.html"><span class="fa fa-caret-right"></span> DBLP数据集</a></li>
+    <li><a href="http://localhost:8080/dataset/sp500.do"><span class="fa fa-caret-right"></span> 标普500数据集</a></li>
+    <li><a href="http://localhost:8080/dataset/dblp.do"><span class="fa fa-caret-right"></span> DBLP数据集</a></li>
   </ul></li>
 
   <li><a href="#" data-target=".preprocessing-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-fighter-jet"></i>数据预处理<i class="fa fa-collapse"></i></a></li>
