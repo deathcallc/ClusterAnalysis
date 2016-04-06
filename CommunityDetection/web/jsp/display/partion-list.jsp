@@ -316,7 +316,7 @@
   </div>
 
 
-  <script src="<c:url value="/lib/bootstrap/js/bootstrap.js"/>"></script>
+  <script src="<c:url value="/resource/lib/bootstrap/js/bootstrap.js"/>"></script>
   <script type="text/javascript">
     $("[rel=tooltip]").tooltip();
     $(function() {

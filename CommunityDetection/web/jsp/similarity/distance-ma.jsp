@@ -96,7 +96,7 @@
 
     例如在平面上，坐标（x1, y1）的i点与坐标（x2, y2）的j点的曼哈顿距离为：<br/><br/>
 
-    <img src="images/equation/ma-distance/ma-distance.png" style="margin-left:300px;" /><br/><br/>
+    <img src="<c:url value="/resource/images/equation/ma-distance/ma-distance.png"/>" style="margin-left:300px;" /><br/><br/>
 
     要注意的是，曼哈顿距离依赖坐标系统的转度，而非系统在坐标轴上的平移或映射。<br/><br/>
 
@@ -119,7 +119,7 @@
 </div>
 
 
-<script src="<c:url value="/lib/bootstrap/js/bootstrap.js"/>"></script>
+<script src="<c:url value="/resource/lib/bootstrap/js/bootstrap.js"/>"></script>
 <script type="text/javascript">
   $("[rel=tooltip]").tooltip();
   $(function() {

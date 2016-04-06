@@ -89,7 +89,7 @@
 
   </div>
   <div class="main-content">
-    <img src="images/webpic/k-core/k-core.png" class="pull-right inline-img hidden-xs" style="max-width:40%; margin-left:1em; margin-top:2em">
+    <img src="<c:url value="/resource/images/webpic/k-core/k-core.png"/>" class="pull-right inline-img hidden-xs" style="max-width:40%; margin-left:1em; margin-top:2em">
     <h3>算法介绍</h3>
     k-core分解主要用于获取网络中重要的节点。其中k为用户参数，表示节点的度数。具体步骤如下：<br/><br/>
 
@@ -109,7 +109,7 @@
 </div>
 
 
-<script src="<c:url value="/lib/bootstrap/js/bootstrap.js"/>"></script>
+<script src="<c:url value="/resource/lib/bootstrap/js/bootstrap.js"/>"></script>
 <script type="text/javascript">
   $("[rel=tooltip]").tooltip();
   $(function() {

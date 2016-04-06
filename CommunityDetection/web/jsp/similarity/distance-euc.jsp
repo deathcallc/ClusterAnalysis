@@ -94,11 +94,11 @@
 
     二维空间的公式<br/><br/>
 
-    <img src="images/equation/euc-distance/euc-two.png" style="margin-left:300px;" /><br/><br/>
+    <img src="<c:url value="/resource/images/equation/euc-distance/euc-two.png"/>" style="margin-left:300px;" /><br/><br/>
 
     三维空间的公式<br/><br/>
 
-    <img src="images/equation/euc-distance/euc-three.png" style="margin-left:300px;" /><br/><br/>
+    <img src="<c:url value="/resource/images/equation/euc-distance/euc-three.png"/>" style="margin-left:300px;" /><br/><br/>
 
     n维空间的公式<br/><br/>
 
@@ -106,7 +106,7 @@
 
     两个点 A = (a[1]，a[2]，…，a[n]) 和 B = (b[1]，b[2]，…，b[n]) 之间的距离 ρ(A，B) 定义为下面的公式：<br/><br/>
 
-    <img src="images/equation/euc-distance/euc-n.png" style="margin-left:300px;" /><br/><br/>
+    <img src="<c:url value="/resource/images/equation/euc-distance/euc-n.png"/>" style="margin-left:300px;" /><br/><br/>
 
 
     <a href="index.html" class="btn btn-primary pull-right" style="margin-top:20px;">使用该度量方法</a>
@@ -116,7 +116,7 @@
 </div>
 
 
-<script src="<c:url value="/lib/bootstrap/js/bootstrap.js"/>"></script>
+<script src="<c:url value="/resource/lib/bootstrap/js/bootstrap.js"/>"></script>
 <script type="text/javascript">
   $("[rel=tooltip]").tooltip();
   $(function() {

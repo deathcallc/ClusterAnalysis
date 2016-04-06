@@ -89,7 +89,7 @@
 
   </div>
   <div class="main-content">
-    <img src="images/equation/cos-distance/cos_distance.png" class="pull-right inline-img hidden-xs" style="max-width:40%; margin-left:1em; margin-top:2em">
+    <img src="<c:url value="/resource/images/equation/cos-distance/cos_distance.png"/>" class="pull-right inline-img hidden-xs" style="max-width:40%; margin-left:1em; margin-top:2em">
     <h3>算法介绍</h3>
     余弦相似度，又称为余弦相似性。通过计算两个向量的夹角余弦值来评估他们的相似度<br/><br/>
 
@@ -103,7 +103,7 @@
 
     设向量 A = (A1,A2,...,An)，B = (B1,B2,...,Bn)，则余弦相似度的计算公式如下：<br/><br/>
 
-    <img src="images/equation/cos-distance/cos_distance_equ.jpg" style="margin-left:300px;" /><br/>
+    <img src="<c:url value="/resource/images/equation/cos-distance/cos_distance_equ.jpg"/>" style="margin-left:300px;" /><br/>
 
 
 
@@ -115,7 +115,7 @@
 </div>
 
 
-<script src="<c:url value="/lib/bootstrap/js/bootstrap.js"/>"></script>
+<script src="<c:url value="/resource/lib/bootstrap/js/bootstrap.js"/>"></script>
 <script type="text/javascript">
   $("[rel=tooltip]").tooltip();
   $(function() {

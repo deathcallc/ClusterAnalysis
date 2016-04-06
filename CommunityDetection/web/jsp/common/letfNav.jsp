@@ -16,9 +16,9 @@
 
   <li><a href="#" data-target=".preprocessing-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-fighter-jet"></i>数据预处理<i class="fa fa-collapse"></i></a></li>
   <li><ul class="preprocessing-menu nav nav-list collapse">
-    <li ><a href="cd-k-core.html"><span class="fa fa-caret-right"></span> k核分解</a></li>
-    <li ><a href="cd-laplace.html"><span class="fa fa-caret-right"></span> 获取拉普拉斯矩阵</a></li>
-    <li ><a href="cd-laplace-inverse.html"><span class="fa fa-caret-right"></span> 获取拉普拉斯伪逆</a></li>
+    <li ><a href="http://localhost:8080/preprocess/k-core.do"><span class="fa fa-caret-right"></span> k核分解</a></li>
+    <li ><a href="http://localhost:8080/preprocess/laplace.do"><span class="fa fa-caret-right"></span> 获取拉普拉斯矩阵</a></li>
+    <li ><a href="http://localhost:8080/preprocess/laplace-inverse.do"><span class="fa fa-caret-right"></span> 获取拉普拉斯伪逆</a></li>
   </ul></li>
 
   <li><a href="#" data-target=".similarity-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-briefcase"></i>相似度计算<i class="fa fa-collapse"></i></a></li>

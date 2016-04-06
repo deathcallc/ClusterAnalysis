@@ -20,14 +20,14 @@ public class DataSetController {
     @RequestMapping(value="/dblp", method= RequestMethod.GET)
     public String gotoDBLPPage(Model model)
     {
-//        log.debug("In viewCourse, courseId = {}", id);
+        log.debug("Goto DBLP Page");
         return "/dataset/dataset-dblp-intro";
     }
 
     @RequestMapping(value="/sp500", method= RequestMethod.GET)
     public String gotoSP500Page(Model model)
     {
-//        log.debug("In viewCourse, courseId = {}", id);
+        log.debug("Goto SP500 page");
         return "/dataset/dataset-sp500-intro";
     }
 
