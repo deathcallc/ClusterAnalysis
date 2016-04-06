@@ -23,23 +23,23 @@
 
   <li><a href="#" data-target=".similarity-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-briefcase"></i>相似度计算<i class="fa fa-collapse"></i></a></li>
   <li><ul class="similarity-menu nav nav-list collapse">
-    <li ><a href="cd-distance-euc.html"><span class="fa fa-caret-right"></span> 欧氏距离</a></li>
-    <li ><a href="cd-distance-ma.html"><span class="fa fa-caret-right"></span> 马氏距离</a></li>
-    <li ><a href="cd-distance-cos.html"><span class="fa fa-caret-right"></span> 余弦相似度</a></li>
+    <li ><a href="http://localhost:8080/similarity/distance-euc.do"><span class="fa fa-caret-right"></span> 欧氏距离</a></li>
+    <li ><a href="http://localhost:8080/similarity/distance-ma.do"><span class="fa fa-caret-right"></span> 马氏距离</a></li>
+    <li ><a href="http://localhost:8080/similarity/distance-cos.do"><span class="fa fa-caret-right"></span> 余弦相似度</a></li>
   </ul></li>
 
   <li><a href="#" data-target=".cluster-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-question-circle"></i>聚类分析<i class="fa fa-collapse"></i></a></li>
   <li><ul class="cluster-menu nav nav-list collapse">
-    <li ><a href="privacy-policy.html"><span class="fa fa-caret-right"></span> 基于稀疏子空间聚类的社团检测</a></li>
-    <li ><a href="cd-spectrul-cluster-intro.html"><span class="fa fa-caret-right"></span> 谱聚类</a></li>
-    <li ><a href="cd-fast-cluster-intro.html"><span class="fa fa-caret-right"></span> Newman快速社团检测</a></li>
+    <li ><a href="http://localhost:8080/cluster/ssc-cluster.do"><span class="fa fa-caret-right"></span> 基于稀疏子空间聚类的社团检测</a></li>
+    <li ><a href="http://localhost:8080/cluster/spectrul-cluster.do"><span class="fa fa-caret-right"></span> 谱聚类</a></li>
+    <li ><a href="http://localhost:8080/cluster/fast-cluster.do"><span class="fa fa-caret-right"></span> Newman快速社团检测</a></li>
   </ul></li>
 
   <li><a href="#" data-target=".result-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-legal"></i>结果展示<i class="fa fa-collapse"></i></a></li>
   <li><ul class="result-menu nav nav-list collapse">
-    <li ><a href="cd-result-display.html"><span class="fa fa-caret-right"></span> 指标结果</a></li>
-    <li ><a href="cd-result-partion-list.html"><span class="fa fa-caret-right"></span> 划分结果列表</a></li>
-    <li ><a href="cd-result-map.html"><span class="fa fa-caret-right"></span> 图展示</a></li>
+    <li ><a href="http://localhost:8080/display/index-list.do"><span class="fa fa-caret-right"></span> 指标结果</a></li>
+    <li ><a href="http://localhost:8080/display/partition-list.do"><span class="fa fa-caret-right"></span> 划分结果列表</a></li>
+    <li ><a href="http://localhost:8080/display/visual.do"><span class="fa fa-caret-right"></span> 图展示</a></li>
   </ul></li>
   <!--
           <li><a href="#" data-target=".accounts-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-briefcase"></i> 账号 <span class="label label-info">+3</span></a></li>
