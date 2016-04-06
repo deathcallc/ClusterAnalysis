@@ -2,8 +2,239 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40aff1ae-e952-4239-9ca0-d383572f0a4b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/people/1083978.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/people/1248972.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/140x140.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/170x170.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/faces/2b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/gallery/319768_8498.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/faces/3a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/faces/3b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/gallery/442256_20337880.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/gallery/463600_31373324.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/gallery/485382_81894547.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/faces/4a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/people/653195.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/people/671385.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/faces/6b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/blog/737034_24905666.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/people/764343.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/gallery/789080_16753532.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/people/912129.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/equation/fast-cluster/ai2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/equation/ssc-cluster/c_decompose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/equation/ssc-cluster/ci.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/equation/ssc-cluster/cijwh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/fancy-zoom/img/closebox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-fileupload-1.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/equation/ssc-cluster/cwhj.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/equation/fast-cluster/e_ij.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/equation/fast-cluster/hierarchical_tree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jackson-annotations-2.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jackson-core-2.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jackson-core-asl-1.8.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jackson-databind-2.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jackson-mapper-asl-1.8.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jackson-module-jaxb-annotations-2.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/loading-icons/loading6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/middleman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/equation/fast-cluster/q.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/equation/fast-cluster/q2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/equation/spectral-cluster/si.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/equation/fast-cluster/sum_eii.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/PLUGINS.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/data-eu-gdp-growth-1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/data-japan-gdp-growth.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/css/elements.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/fancy-zoom/src/fancyzoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/images/loading-icons/images.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/jQuery-Knob/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/interacting-axes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/jquery.flot.image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/jquery.flot.symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/fullcalendar-1.6.4/lib/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/multiple-axes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/less/stacked.less" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\css\theme.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\blog\442256_20337880.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\blog\503993_62595320.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\blog\625998_12886207.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\blog\images.txt" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\equation\fast-cluster\ai_sum_eij.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\equation\fast-cluster\eii.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\equation\fast-cluster\eij_eji.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\equation\spectral-cluster\asi_ge0.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\equation\spectral-cluster\o3.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\c_list.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\di.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\lamda_1_n_t_2.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\lamda_t_n_sqrt.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\y-i.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\yi_in_r.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\faces\1a.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\faces\4b.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\faces\5b.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\gallery\403944_5580.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\gallery\43616_6206.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\gallery\503993_62595320.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\gallery\544337_83543416.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\gallery\737034_24905666.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\gallery\760375_32906821.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\loading-icons\loading10.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\loading-icons\loading3.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\media\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\media\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\people\1139155.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\people\1170492.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\people\1205972.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\people\471397.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\people\923068.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\preview\9.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\preview\d3.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\images\tumblr_mopqkkwK2M1st5lhmo1_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\bootstrap\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\bootstrap\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fancy-zoom\index.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\annotating.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\data-eu-gdp-growth-4.json" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\data-usa-gdp-growth.json" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\image.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\index.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\layout.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\resize.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\stacking.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\symbols.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\thresholding.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\time.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\jquery.flot.fillbetween.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\jquery.flot.stack.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\flot\jquery.flot.threshold.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\css\font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\less\core.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\less\spinning.less" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\scss\_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\scss\_spinning.scss" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\agenda-views.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\cupertino\images\animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\cupertino\images\ui-bg_flat_15_cd0a0a_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\cupertino\images\ui-bg_glass_100_e4f1fb_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\cupertino\images\ui-bg_glass_80_d7ebf9_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\cupertino\images\ui-bg_highlight-soft_100_deedf7_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\cupertino\images\ui-icons_2694e8_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\cupertino\images\ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\cupertino\jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\default.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\gcal.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\json-events.php" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\json.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\selectable.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\demos\theme.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\fullcalendar\fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\fullcalendar\fullcalendar.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\fullcalendar\gcal.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\lib\jquery-ui.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\fullcalendar-1.6.4\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\jQuery-Knob\knob.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\jquery.imagesloaded.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\github\CommunityDetection\web\lib\jquery.isotope.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/applicationContext.xml" afterPath="$PROJECT_DIR$/src/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/cluster/spectrul-cluster.jsp" afterPath="$PROJECT_DIR$/web/jsp/cluster/spectrul-cluster.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CommunityDetection_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/CommunityDetection_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\css\isotope.css" afterPath="$PROJECT_DIR$/web/resource/css/isotope.css" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\blog\472381_10949156.jpg" afterPath="$PROJECT_DIR$/web/resource/images/blog/472381_10949156.jpg" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\blog\789080_16753532.jpg" afterPath="$PROJECT_DIR$/web/resource/images/blog/789080_16753532.jpg" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\cos-distance\cos_distance.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/cos-distance/cos_distance.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\cos-distance\cos_distance_equ.jpg" afterPath="$PROJECT_DIR$/web/resource/images/equation/cos-distance/cos_distance_equ.jpg" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\euc-distance\euc-n.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/euc-distance/euc-n.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\fast-cluster\aii.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/fast-cluster/aii.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\spectral-cluster\laplace.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/spectral-cluster/laplace.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\spectral-cluster\s_cdot.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/spectral-cluster/s_cdot.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\spectral-cluster\x_normal.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/spectral-cluster/x_normal.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\cwh.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/ssc-cluster/cwh.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\di-1.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/ssc-cluster/di-1.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\lamda_m.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/ssc-cluster/lamda_m.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\lamda_min_to_lamda_max.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/ssc-cluster/lamda_min_to_lamda_max.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\min_ci.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/ssc-cluster/min_ci.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\n_le_d.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/ssc-cluster/n_le_d.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\equation\ssc-cluster\yi.png" afterPath="$PROJECT_DIR$/web/resource/images/equation/ssc-cluster/yi.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\faces\2a.png" afterPath="$PROJECT_DIR$/web/resource/images/faces/2a.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\faces\7b.jpg" afterPath="$PROJECT_DIR$/web/resource/images/faces/7b.jpg" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\gallery\472381_10949156.jpg" afterPath="$PROJECT_DIR$/web/resource/images/gallery/472381_10949156.jpg" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\gallery\625998_12886207.jpg" afterPath="$PROJECT_DIR$/web/resource/images/gallery/625998_12886207.jpg" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\gallery\images.txt" afterPath="$PROJECT_DIR$/web/resource/images/blog/images.txt" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\less.png" afterPath="$PROJECT_DIR$/web/resource/images/less.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\loading-icons\loading1.gif" afterPath="$PROJECT_DIR$/web/resource/images/loading-icons/loading1.gif" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\loading-icons\loading2.gif" afterPath="$PROJECT_DIR$/web/resource/images/loading-icons/loading2.gif" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\loading-icons\loading7.gif" afterPath="$PROJECT_DIR$/web/resource/images/loading-icons/loading7.gif" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\loading-icons\loading8.gif" afterPath="$PROJECT_DIR$/web/resource/images/loading-icons/loading8.gif" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\loading-icons\loading9.gif" afterPath="$PROJECT_DIR$/web/resource/images/loading-icons/loading9.gif" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\media\1.jpg" afterPath="$PROJECT_DIR$/web/resource/images/media/1.jpg" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\people\1208847.jpg" afterPath="$PROJECT_DIR$/web/resource/images/people/1208847.jpg" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\people\797762.jpg" afterPath="$PROJECT_DIR$/web/resource/images/people/797762.jpg" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\preview\12.png" afterPath="$PROJECT_DIR$/web/resource/images/preview/12.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\preview\13.png" afterPath="$PROJECT_DIR$/web/resource/images/preview/13.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\preview\14.png" afterPath="$PROJECT_DIR$/web/resource/images/preview/14.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\preview\8.png" afterPath="$PROJECT_DIR$/web/resource/images/preview/8.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\images\webpic\k-core\k-core.png" afterPath="$PROJECT_DIR$/web/resource/images/webpic/k-core/k-core.png" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\bootstrap\css\bootstrap.css" afterPath="$PROJECT_DIR$/web/resource/lib/bootstrap/css/bootstrap.css" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\bootstrap\js\bootstrap.js" afterPath="$PROJECT_DIR$/web/resource/lib/bootstrap/js/bootstrap.js" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\fancy-zoom\css\fancyzoom.css" afterPath="$PROJECT_DIR$/web/resource/lib/fancy-zoom/css/fancyzoom.css" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\fancy-zoom\src\fancyzoom.coffee" afterPath="$PROJECT_DIR$/web/resource/lib/fancy-zoom/src/fancyzoom.coffee" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\API.txt" afterPath="$PROJECT_DIR$/web/resource/lib/flot/API.txt" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\FAQ.txt" afterPath="$PROJECT_DIR$/web/resource/lib/flot/FAQ.txt" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\ajax.html" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/ajax.html" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\arrow-down.gif" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/arrow-down.gif" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\arrow-up.gif" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/arrow-up.gif" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\basic.html" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/basic.html" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\data-eu-gdp-growth-3.json" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/data-eu-gdp-growth-3.json" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\graph-types.html" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/graph-types.html" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\navigate.html" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/navigate.html" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\pie.html" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/pie.html" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\realtime.html" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/realtime.html" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\setting-options.html" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/setting-options.html" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\turning-series.html" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/turning-series.html" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\examples\zooming.html" afterPath="$PROJECT_DIR$/web/resource/lib/flot/examples/zooming.html" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\jquery.colorhelpers.js" afterPath="$PROJECT_DIR$/web/resource/lib/flot/jquery.colorhelpers.js" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\flot\jquery.flot.js" afterPath="$PROJECT_DIR$/web/resource/lib/flot/jquery.flot.js" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\css\font-awesome.min.css" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\less\fixed-width.less" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/less/fixed-width.less" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\less\larger.less" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/less/larger.less" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\less\list.less" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/scss/_list.scss" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\less\mixins.less" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/less/mixins.less" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\less\variables.less" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/less/variables.less" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\scss\_core.scss" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/scss/_core.scss" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\scss\_larger.scss" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/scss/_larger.scss" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\scss\_stacked.scss" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/scss/_stacked.scss" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\font-awesome\scss\_variables.scss" afterPath="$PROJECT_DIR$/web/resource/lib/font-awesome/scss/_variables.scss" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\jQuery-Knob\README.md" afterPath="$PROJECT_DIR$/web/resource/lib/jQuery-Knob/README.md" />
+      <change type="MOVED" beforePath="G:\github\CommunityDetection\web\lib\jQuery-Knob\js\jquery.knob.js" afterPath="$PROJECT_DIR$/web/resource/lib/jQuery-Knob/js/jquery.knob.js" />
     </list>
     <ignored path="CommunityDetection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,31 +257,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="distance-ma.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/similarity/distance-ma.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="distance-euc.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/similarity/distance-euc.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="113" column="46" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
+              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -60,47 +271,89 @@
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSetController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wsc/controller/DataSetController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.08768267">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/common/footer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/common/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="letfNav.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/common/letfNav.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="99" selection-start-line="51" selection-start-column="99" selection-end-line="51" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/welcome.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="383" column="36" selection-start-line="383" selection-start-column="36" selection-end-line="383" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42367068">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="laplace.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/preprocess/laplace.jsp">
+      <file leaf-file-name="spectrul-cluster.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/jsp/cluster/spectrul-cluster.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="laplace-inverse.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/preprocess/laplace-inverse.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="101" column="72" selection-start-line="101" selection-start-column="72" selection-end-line="101" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fast-cluster.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/cluster/fast-cluster.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="84" />
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,16 +386,12 @@
       <list>
         <option value="$PROJECT_DIR$/web/jsp/test.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/common/letfNav.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/common/commonPackage.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/common/footer.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/common/header.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/dataset/dataset-sp500-intro.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/dataset/dataset-dblp-intro.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/welcome.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/Preprocessing/k-core.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/similarity/distance-cos.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/cluster/fast-cluster.jsp" />
-        <option value="$PROJECT_DIR$/web/jsp/cluster/spectrul-cluster.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/display/index_list.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/display/partion-list.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/cluster/ssc-cluster.jsp" />
@@ -150,11 +399,18 @@
         <option value="$PROJECT_DIR$/web/jsp/preprocess/laplace.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/preprocess/laplace-inverse.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/similarity/distance-ma.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/similarity/distance-euc.jsp" />
         <option value="$PROJECT_DIR$/src/com/wsc/servlet/TestServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/cluster/fast-cluster.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/common/commonPackage.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/cluster/spectrul-cluster.jsp" />
+        <option value="$PROJECT_DIR$/web/jsp/welcome.jsp" />
         <option value="$PROJECT_DIR$/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/com/wsc/controller/DataSetController.java" />
+        <option value="$PROJECT_DIR$/src/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
       </list>
     </option>
   </component>
@@ -173,10 +429,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -201,8 +457,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,10 +467,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -280,6 +530,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataset" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,26 +633,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/spring-ws.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/commons-fileupload-1.2.1.jar!/" />
     <property name="FullScreen" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -352,12 +670,13 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\github\CommunityDetection\lib" />
+      <recent name="G:\github\CommunityDetection\src" />
       <recent name="G:\github\CommunityDetection\web\WEB-INF\lib" />
       <recent name="G:\github\CommunityDetection\src\com\wsc" />
       <recent name="G:\github\CommunityDetection\web\WEB-INF" />
-      <recent name="G:\github\CommunityDetection\web\images\equation\euc-distance" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\github\CommunityDetection\web\resource" />
       <recent name="G:\github\CommunityDetection\src" />
     </key>
   </component>
@@ -734,7 +1053,12 @@
       <workItem from="1459510931654" duration="3836000" />
       <workItem from="1459520525442" duration="1433000" />
       <workItem from="1459521997706" duration="1492000" />
-      <workItem from="1459526762289" duration="147000" />
+      <workItem from="1459526762289" duration="1320000" />
+      <workItem from="1459750100446" duration="3017000" />
+      <workItem from="1459831471109" duration="6842000" />
+      <workItem from="1459840978044" duration="1091000" />
+      <workItem from="1459842132854" duration="10245000" />
+      <workItem from="1459922705851" duration="5258000" />
     </task>
     <task id="LOCAL-00001" summary="base">
       <created>1459066522439</created>
@@ -814,27 +1138,35 @@
       <option name="project" value="LOCAL" />
       <updated>1459522877553</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="distance page">
+      <created>1459526933003</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1459526933003</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92099000" />
+    <option name="totallyTimeSpent" value="119725000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44281045" sideWeight="0.24130106" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44504896" sideWeight="0.75869894" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29954615" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22435898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -842,15 +1174,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44281045" sideWeight="0.75869894" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -871,7 +1201,9 @@
     <MESSAGE value="add some page" />
     <MESSAGE value="rename index-list" />
     <MESSAGE value="distance page" />
-    <option name="LAST_COMMIT_MESSAGE" value="distance page" />
+    <MESSAGE value="springmvc" />
+    <MESSAGE value="first controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="first controller" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -884,54 +1216,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/jsp/preprocess/laplace.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/preprocess/laplace-inverse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="72" selection-start-line="101" selection-start-column="72" selection-end-line="101" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/cluster/fast-cluster.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/preprocess/laplace.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/preprocess/laplace-inverse.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="72" selection-start-line="101" selection-start-column="72" selection-end-line="101" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/cluster/fast-cluster.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -944,7 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,7 +1235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="101" column="72" selection-start-line="101" selection-start-column="72" selection-end-line="101" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,14 +1361,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/elements.css">
+    <entry file="file://$PROJECT_DIR$/web/resource/css/elements.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/lib/bootstrap/js/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/web/resource/lib/bootstrap/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1097,37 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/common/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.428571">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/common/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.821428">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/common/letfNav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="99" selection-start-line="51" selection-start-column="99" selection-end-line="51" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="385" column="21" selection-start-line="383" selection-start-column="0" selection-end-line="392" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1173,21 +1424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/cluster/spectrul-cluster.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/common/commonPackage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="80" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/dataset/dataset-dblp-intro.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1213,7 +1449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="14" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,15 +1456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="101" column="72" selection-start-line="101" selection-start-column="72" selection-end-line="101" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/jsp/cluster/fast-cluster.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,18 +1467,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/similarity/distance-euc.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="113" column="46" selection-start-line="113" selection-start-column="46" selection-end-line="113" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resource/lib/flot/API.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resource/images/blog/images.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resource/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/cluster/fast-cluster.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/common/commonPackage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/common/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/common/letfNav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="99" selection-start-line="51" selection-start-column="99" selection-end-line="51" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/cluster/spectrul-cluster.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/jsp/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="383" column="36" selection-start-line="383" selection-start-column="36" selection-end-line="383" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1260,16 +1580,26 @@
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42367068">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wsc/controller/DataSetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08768267">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1281,9 +1611,9 @@
           <artifact-editor>
             <show-content>
               <type id="jpa-descriptors" />
+              <type id="library" />
               <type id="javaee-facet-resources" />
               <type id="artifact" />
-              <type id="library" />
             </show-content>
           </artifact-editor>
           <last-edited>CommunityDetection:war exploded</last-edited>
