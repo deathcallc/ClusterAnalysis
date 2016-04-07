@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40aff1ae-e952-4239-9ca0-d383572f0a4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/dataset/dataset-dblp-intro.jsp" afterPath="$PROJECT_DIR$/web/jsp/dataset/dataset-dblp-intro.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/dataset/dataset-sp500-intro.jsp" afterPath="$PROJECT_DIR$/web/jsp/dataset/dataset-sp500-intro.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/similarity/distance-cos.jsp" afterPath="$PROJECT_DIR$/web/jsp/similarity/distance-cos.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/similarity/distance-euc.jsp" afterPath="$PROJECT_DIR$/web/jsp/similarity/distance-euc.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/similarity/distance-ma.jsp" afterPath="$PROJECT_DIR$/web/jsp/similarity/distance-ma.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/cluster/fast-cluster.jsp" afterPath="$PROJECT_DIR$/web/jsp/cluster/fast-cluster.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/preprocess/k-core.jsp" afterPath="$PROJECT_DIR$/web/jsp/preprocess/k-core.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/preprocess/laplace-inverse.jsp" afterPath="$PROJECT_DIR$/web/jsp/preprocess/laplace-inverse.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/preprocess/laplace.jsp" afterPath="$PROJECT_DIR$/web/jsp/preprocess/laplace.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/display/partion-list.jsp" afterPath="$PROJECT_DIR$/web/jsp/display/partion-list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/cluster/spectrul-cluster.jsp" afterPath="$PROJECT_DIR$/web/jsp/cluster/spectrul-cluster.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/cluster/ssc-cluster.jsp" afterPath="$PROJECT_DIR$/web/jsp/cluster/ssc-cluster.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/model/algorithm/AbstractComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/entity/AlgorithmFlag.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/service/AlgorithmService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/model/algorithm/impl/DataSetComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/model/dataset/impl/DataSetFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/model/index/impl/DataSetSubject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/model/algorithm/Decorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/model/dataset/IDataSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/model/dataset/IDataSetFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/model/index/IObserver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/model/index/Subject.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CommunityDetection.iws" />
@@ -38,101 +36,125 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dataset-dblp-intro.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/dataset/dataset-dblp-intro.jsp">
+      <file leaf-file-name="AlgorithmFlag.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wsc/entity/AlgorithmFlag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.25">
-              <caret line="86" column="53" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSetFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wsc/model/dataset/impl/DataSetFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partion-list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/display/partion-list.jsp">
+      <file leaf-file-name="Subject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wsc/model/index/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.65625">
-              <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#211#222#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSetSubject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wsc/model/index/impl/DataSetSubject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractComponent.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wsc/model/algorithm/AbstractComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2849099">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSetComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wsc/model/algorithm/impl/DataSetComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visual.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/display/visual.jsp">
+      <file leaf-file-name="Decorator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wsc/model/algorithm/Decorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.375">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IObserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wsc/model/index/IObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="k-core.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/preprocess/k-core.jsp">
+      <file leaf-file-name="IDataSetFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wsc/model/dataset/IDataSetFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.5">
-              <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="laplace.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/preprocess/laplace.jsp">
+      <file leaf-file-name="IDataSet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wsc/model/dataset/IDataSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.25">
-              <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="laplace-inverse.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/preprocess/laplace-inverse.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.75">
-              <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="distance-ma.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/similarity/distance-ma.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.78125">
-              <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/jsp/welcome.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="17.27328">
-              <caret line="389" column="9" selection-start-line="389" selection-start-column="9" selection-end-line="389" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="distance-cos.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/similarity/distance-cos.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.03125">
-              <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="distance-euc.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/similarity/distance-euc.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0625">
-              <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -143,6 +165,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -197,6 +220,16 @@
         <option value="$PROJECT_DIR$/web/jsp/similarity/distance-cos.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/similarity/distance-euc.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/similarity/distance-ma.jsp" />
+        <option value="$PROJECT_DIR$/src/com/wsc/entity/AlgorithmFlag.java" />
+        <option value="$PROJECT_DIR$/src/com/wsc/model/dataset/DataSetFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/wsc/model/dataset/impl/DataSetFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/wsc/model/index/IObserver.java" />
+        <option value="$PROJECT_DIR$/src/com/wsc/model/index/Subject.java" />
+        <option value="$PROJECT_DIR$/src/com/wsc/model/index/impl/DataSetSubject.java" />
+        <option value="$PROJECT_DIR$/src/com/wsc/model/algorithm/AlgorithmComponent.java" />
+        <option value="$PROJECT_DIR$/src/com/wsc/model/algorithm/impl/AbstractComponent.java" />
+        <option value="$PROJECT_DIR$/src/com/wsc/model/algorithm/Decorator.java" />
+        <option value="$PROJECT_DIR$/src/com/wsc/model/algorithm/AbstractComponent.java" />
       </list>
     </option>
   </component>
@@ -215,8 +248,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-8" />
+    <option name="x" value="2111" />
+    <option name="y" value="134" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -243,6 +276,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -518,6 +552,218 @@
               <option name="myItemId" value="wsc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataset" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataset" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommunityDetection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -543,9 +789,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -956,7 +1201,8 @@
       <workItem from="1459840978044" duration="1091000" />
       <workItem from="1459842132854" duration="10245000" />
       <workItem from="1459922705851" duration="14851000" />
-      <workItem from="1459942476836" duration="4752000" />
+      <workItem from="1459942476836" duration="6076000" />
+      <workItem from="1460004915483" duration="12803000" />
     </task>
     <task id="LOCAL-00001" summary="base">
       <created>1459066522439</created>
@@ -1066,26 +1312,31 @@
       <option name="project" value="LOCAL" />
       <updated>1459941884193</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fixed:&#10;     some error url&#10;     &#10; added:&#10;     SimilarityController&#10;     DisplayController&#10;     ClusterController">
+      <created>1459948307025</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1459948307025</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134070000" />
+    <option name="totallyTimeSpent" value="148197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="2111" y="134" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2023939" sideWeight="0.24786325" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3939064" sideWeight="0.75213677" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3939064" sideWeight="0.75213677" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1102,6 +1353,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1127,7 +1379,8 @@
     <MESSAGE value="first controller" />
     <MESSAGE value="fixed:&#10;     some error url&#10;     &#10; added:&#10;     PreprocessController" />
     <MESSAGE value="fixed:&#10;     some error url&#10;     &#10; added:&#10;     SimilarityController&#10;     DisplayController&#10;     ClusterController" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed:&#10;     some error url&#10;     &#10; added:&#10;     SimilarityController&#10;     DisplayController&#10;     ClusterController" />
+    <MESSAGE value="fixed:&#10;     &#10;added:&#10;&#10;     framework of dataset block, algorithm block &amp; analysis block&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed:&#10;     &#10;added:&#10;&#10;     framework of dataset block, algorithm block &amp; analysis block&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1140,86 +1393,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommunityDetection.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommunityDetection.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommunityDetection.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommunityDetection.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1340,7 +1513,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1350,7 +1523,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="38" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1360,7 +1533,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="5" selection-start-line="17" selection-start-column="0" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1370,7 +1543,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1407,7 +1580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.46875">
           <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,7 +1595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.40625">
           <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1447,7 +1618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.53125">
           <caret line="86" column="53" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1455,13 +1625,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-119.9375">
           <caret line="223" column="38" selection-start-line="223" selection-start-column="38" selection-end-line="223" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/dataset/dataset-dblp-intro.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.25">
+        <state vertical-scroll-proportion="0.0">
           <caret line="86" column="53" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
           <folding />
         </state>
@@ -1469,7 +1638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/display/partion-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.65625">
+        <state vertical-scroll-proportion="0.0">
           <caret line="90" column="61" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
           <folding />
         </state>
@@ -1477,7 +1646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/display/visual.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.375">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
         </state>
@@ -1485,7 +1654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/preprocess/k-core.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
           <folding />
         </state>
@@ -1493,7 +1662,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/preprocess/laplace.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.25">
+        <state vertical-scroll-proportion="0.0">
           <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
           <folding />
         </state>
@@ -1501,7 +1670,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/preprocess/laplace-inverse.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.75">
+        <state vertical-scroll-proportion="0.0">
           <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
           <folding />
         </state>
@@ -1509,7 +1678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/similarity/distance-cos.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.03125">
+        <state vertical-scroll-proportion="0.0">
           <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
           <folding />
         </state>
@@ -1517,7 +1686,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/similarity/distance-euc.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0625">
+        <state vertical-scroll-proportion="0.0">
           <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
           <folding />
         </state>
@@ -1525,7 +1694,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/similarity/distance-ma.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.78125">
+        <state vertical-scroll-proportion="0.0">
           <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
           <folding />
         </state>
@@ -1533,9 +1702,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="17.27328">
-          <caret line="389" column="9" selection-start-line="389" selection-start-column="9" selection-end-line="389" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="231" column="10" selection-start-line="231" selection-start-column="10" selection-end-line="231" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wsc/service/AlgorithmService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wsc/entity/AlgorithmFlag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wsc/model/dataset/IDataSetFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wsc/model/dataset/IDataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wsc/model/index/IObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wsc/model/index/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#222#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wsc/model/index/impl/DataSetSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wsc/model/algorithm/impl/DataSetComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wsc/model/dataset/impl/DataSetFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wsc/model/algorithm/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wsc/model/algorithm/AbstractComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2849099">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
