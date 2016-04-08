@@ -142,7 +142,8 @@
     </div>
 
 
-    <a href="index.html" class="btn btn-primary pull-right" style="margin-top:20px;">使用该数据集</a>
+    <a href="http://localhost:8080/dataset/set_dataset.do?title=sp500" class="btn btn-primary pull-right" style="margin-top:20px;">
+      使用该数据集</a>
 
     <%@include file="/jsp/common/footer.jsp"%>
   </div>
