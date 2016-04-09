@@ -114,7 +114,7 @@
     </p>
 
 
-    <a href="index.html" class="btn btn-primary pull-right" style="margin-top:20px;">开始算法</a>
+    <a href="http://localhost:8080/dataset/set_cluster.do?title=fast-cluster" class="btn btn-primary pull-right" style="margin-top:20px;">开始算法</a>
 
     <%@include file="/jsp/common/footer.jsp"%>
   </div>

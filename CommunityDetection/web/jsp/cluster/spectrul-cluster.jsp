@@ -116,7 +116,7 @@
     这就导致了谱聚类的可伸缩性差。在处理对象较多的数据集时，谱聚类往往需要花费较长的时间。<br/><br/>
 
 
-    <a href="index.html" class="btn btn-primary pull-right" style="margin-top:20px;">开始算法</a>
+    <a href="http://localhost:8080/dataset/set_cluster.do?title=spectrul-cluster" class="btn btn-primary pull-right" style="margin-top:20px;">开始算法</a>
 
     <%@include file="/jsp/common/footer.jsp"%>
   </div>

@@ -5,11 +5,15 @@ import com.wsc.entity.AlgorithmFlag;
 import com.wsc.model.algorithm.IAlgorithmFlagOpt;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.BeansException;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.context.support.WebApplicationContextUtils;
 import org.springframework.web.portlet.ModelAndView;
 
 import javax.annotation.Resource;
@@ -21,11 +25,23 @@ import java.util.Objects;
  */
 @Controller
 @RequestMapping("/dataset")
-public class DataSetController {
+public class DataSetController implements ApplicationContextAware  {
 
     private static Logger log = LoggerFactory.getLogger(DataSetController.class);
 
     private IAlgorithmFlagOpt mAlgorithmFlagOpt;
+
+    private ApplicationContext mApplicationContext;
+
+    @Resource(name="algorithmFlagOpt")
+    public void setmAlgorithmFlagOpt(IAlgorithmFlagOpt mAlgorithmFlagOpt) {
+        this.mAlgorithmFlagOpt = mAlgorithmFlagOpt;
+    }
+
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        mApplicationContext = applicationContext;
+    }
 
     @RequestMapping(value="/dblp", method= RequestMethod.GET)
     public String gotoDBLPPage(Model model)
@@ -46,13 +62,11 @@ public class DataSetController {
     {
         log.debug("set dataset title : "+title);
 
-//        WebApplicationContext webApplicationContext = ContextLoader.getCurrentWebApplicationContext();
-//        service=(LogInjectionSaf)webApplicationContextgetBean("testA");
-
         Object ob = httpSession.getAttribute(SessionKeyCfg.FLAG);
         AlgorithmFlag flag;
         if(ob == null) {
-            flag = new AlgorithmFlag();
+            //flag = new AlgorithmFlag();
+            flag = (AlgorithmFlag)mApplicationContext.getBean("algorithmFlag");
         }
         else {
             flag = (AlgorithmFlag)ob;
@@ -73,11 +87,6 @@ public class DataSetController {
         else{
             return "/index.do";
         }
-    }
-
-    @Resource(name="algorithmFlagOpt")
-    public void setmAlgorithmFlagOpt(IAlgorithmFlagOpt mAlgorithmFlagOpt) {
-        this.mAlgorithmFlagOpt = mAlgorithmFlagOpt;
     }
 
 }
