@@ -2,10 +2,12 @@ package com.wsc.model.algorithm.impl;
 
 import com.wsc.entity.AlgorithmFlag;
 import com.wsc.model.algorithm.IAlgorithmFlagOpt;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by xiaowei on 2016/4/8.
  */
+@Component
 public class AlgorithmFlagOpt implements IAlgorithmFlagOpt {
 
     @Override
