@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40aff1ae-e952-4239-9ca0-d383572f0a4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wsc/config/SessionKeyCfg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wsc/entity/AlgorithmFlag.java" afterPath="$PROJECT_DIR$/src/com/wsc/entity/AlgorithmFlag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wsc/model/algorithm/impl/AlgorithmFlagOpt.java" afterPath="$PROJECT_DIR$/src/com/wsc/model/algorithm/impl/AlgorithmFlagOpt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wsc/controller/DataSetController.java" afterPath="$PROJECT_DIR$/src/com/wsc/controller/DataSetController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/jsp/dataset/dataset-dblp-intro.jsp" afterPath="$PROJECT_DIR$/web/jsp/dataset/dataset-dblp-intro.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CommunityDetection.iws" />
@@ -1116,7 +1111,7 @@
       <workItem from="1460004915483" duration="12883000" />
       <workItem from="1460029124676" duration="1211000" />
       <workItem from="1460093296072" duration="11134000" />
-      <workItem from="1460182411782" duration="6265000" />
+      <workItem from="1460182411782" duration="6297000" />
     </task>
     <task id="LOCAL-00001" summary="base">
       <created>1459066522439</created>
@@ -1244,11 +1239,17 @@
       <option name="project" value="LOCAL" />
       <updated>1460104714538</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fixed:&#10;     &#10;added:&#10;&#10;     set flag&#10;">
+      <created>1460192337331</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1460192337331</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166887000" />
+    <option name="totallyTimeSpent" value="166919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
