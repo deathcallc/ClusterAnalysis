@@ -15,4 +15,8 @@ public interface IAlgorithmFlagOpt {
 
     public void addSimilarityFlag(AlgorithmFlag aFlag, long flag);
 
+    public boolean hasFlag(AlgorithmFlag aFlag, long flag);
+
+    public void removeFlag(AlgorithmFlag aFlag, long flag);
+
 }

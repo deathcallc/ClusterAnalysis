@@ -10,6 +10,23 @@
 <html lang="en"><head>
   <%@include file="/jsp/common/commonPackage.jsp"%>
 
+  <script type="text/javascript">
+    function setPreprocess(){
+      $.ajax({
+        data:"title=laplace",
+        type:"GET",
+        dataType: 'json',
+        url:"/preprocess/set_preprocess.do",
+        error:function(data){
+          alert("出错了！！:"+data.msg);
+        },
+        success:function(data){
+          alert(data.msg);
+        }
+      });
+    }
+  </script>
+
 </head>
 <body class=" theme-blue">
 
@@ -106,7 +123,7 @@
     4.最小的非0特征值称为谱隙spectral gap.<br/><br/>
     5.最小非零特征值是图的代数连通度。<br/><br/>
 
-    <a href="index.html" class="btn btn-primary pull-right" style="margin-top:20px;">使用该算法</a>
+    <span onclick="setPreprocess();" class="btn btn-primary pull-right" style="margin-top:20px;">使用该算法</span>
 
     <%@include file="/jsp/common/footer.jsp"%>
   </div>

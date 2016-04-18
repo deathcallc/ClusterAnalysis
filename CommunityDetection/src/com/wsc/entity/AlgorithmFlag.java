@@ -29,7 +29,7 @@ public class AlgorithmFlag {
 
     public boolean hasFlag(long flag) {
 
-        if (1 == (mFlag & flag))
+        if ((mFlag & flag) != 0)
             return true;
         else
             return false;

@@ -12,7 +12,7 @@
   <%@include file="/jsp/common/commonPackage.jsp"%>
 
   <script type="text/javascript">
-    function ajaxTest(){
+    function setDataSet(){
       $.ajax({
         data:"title=dblp",
         type:"GET",
@@ -157,7 +157,7 @@
     </div>
 
 
-    <span onclick="ajaxTest();" class="btn btn-primary pull-right" style="margin-top:20px;">使用该数据集</span>
+    <span onclick="setDataSet();" class="btn btn-primary pull-right" style="margin-top:20px;">使用该数据集</span>
 
     <%@include file="/jsp/common/footer.jsp"%>
   </div>

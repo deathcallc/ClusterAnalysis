@@ -10,6 +10,23 @@
 <html lang="en"><head>
   <%@include file="/jsp/common/commonPackage.jsp"%>
 
+  <script type="text/javascript">
+    function setPreprocess(){
+      $.ajax({
+        data:"title=k-core",
+        type:"GET",
+        dataType: 'json',
+        url:"/preprocess/set_preprocess.do",
+        error:function(data){
+          alert("出错了！！:"+data.msg);
+        },
+        success:function(data){
+          alert(data.msg);
+        }
+      });
+    }
+  </script>
+
 </head>
 <body class=" theme-blue">
 
@@ -101,8 +118,7 @@
     <br/><br/>
     <br/><br/>
 
-
-    <a href="index.html" class="btn btn-primary pull-right" style="margin-top:20px;">使用该算法</a>
+    <span onclick="setPreprocess();" class="btn btn-primary pull-right" style="margin-top:20px;">使用该算法</span>
 
     <%@include file="/jsp/common/footer.jsp"%>
   </div>

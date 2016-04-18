@@ -32,4 +32,16 @@ public class AlgorithmFlagOpt implements IAlgorithmFlagOpt {
         aFlag.removeFlag(AlgorithmFlag.S_FLAG);
         aFlag.addFlag(flag);
     }
+
+    @Override
+    public boolean hasFlag(AlgorithmFlag aFlag, long flag) {
+        return aFlag.hasFlag(flag);
+    }
+
+    @Override
+    public void removeFlag(AlgorithmFlag aFlag, long flag) {
+        aFlag.removeFlag(flag);
+    }
+
+
 }

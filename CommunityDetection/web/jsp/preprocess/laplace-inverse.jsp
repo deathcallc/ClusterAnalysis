@@ -10,6 +10,23 @@
 <html lang="en"><head>
   <%@include file="/jsp/common/commonPackage.jsp"%>
 
+  <script type="text/javascript">
+    function setPreprocess(){
+      $.ajax({
+        data:"title=laplace-inverse",
+        type:"GET",
+        dataType: 'json',
+        url:"/preprocess/set_preprocess.do",
+        error:function(data){
+          alert("出错了！！:"+data.msg);
+        },
+        success:function(data){
+          alert(data.msg);
+        }
+      });
+    }
+  </script>
+
 </head>
 <body class=" theme-blue">
 
@@ -101,7 +118,7 @@
     函数返回一个与A的转置矩阵A' 同型的矩阵X，并且满足：AXA=A,XAX=X.此时，称矩阵X为矩阵A的伪逆，也称为广义逆矩阵。pinv(A)具有inv(A)的部分特性，但不与inv(A)完全等同。
     如果A为非奇异方阵，pinv(A)=inv(A)，但却会耗费大量的计算时间，相比较而言，inv(A)花费更少的时间。<br/><br/>
 
-    <a href="index.html" class="btn btn-primary pull-right" style="margin-top:20px;">使用该算法</a>
+    <span onclick="setPreprocess();" class="btn btn-primary pull-right" style="margin-top:20px;">使用该算法</span>
 
     <%@include file="/jsp/common/footer.jsp"%>
   </div>

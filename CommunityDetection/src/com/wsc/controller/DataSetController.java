@@ -123,7 +123,7 @@ public class DataSetController implements ApplicationContextAware {
             msg.setMsg("设置成功！");
             return msg;
         } else {
-            msg.setMsg("设置成功！");
+            msg.setMsg("参数异常！");
             return msg;
         }
     }
