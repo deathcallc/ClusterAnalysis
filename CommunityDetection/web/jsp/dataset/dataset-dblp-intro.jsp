@@ -11,6 +11,23 @@
 
   <%@include file="/jsp/common/commonPackage.jsp"%>
 
+  <script type="text/javascript">
+    function ajaxTest(){
+      $.ajax({
+        data:"title=dblp",
+        type:"GET",
+        dataType: 'json',
+        url:"/dataset/set_dataset.do",
+        error:function(data){
+          alert("出错了！！:"+data.msg);
+        },
+        success:function(data){
+          alert(data.msg);
+        }
+      });
+    }
+  </script>
+
 </head>
 <body class=" theme-blue">
 
@@ -140,7 +157,7 @@
     </div>
 
 
-    <a href="http://localhost:8080/dataset/set_dataset.do?title=dblp" class="btn btn-primary pull-right" style="margin-top:20px;">使用该数据集</a>
+    <span onclick="ajaxTest();" class="btn btn-primary pull-right" style="margin-top:20px;">使用该数据集</span>
 
     <%@include file="/jsp/common/footer.jsp"%>
   </div>
