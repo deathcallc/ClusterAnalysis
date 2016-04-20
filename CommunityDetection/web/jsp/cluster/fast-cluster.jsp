@@ -9,6 +9,23 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html lang="en"><head>
   <%@include file="/jsp/common/commonPackage.jsp"%>
+
+  <script type="text/javascript">
+    function setCluster(){
+      $.ajax({
+        data:"title=fast-cluster",
+        type:"GET",
+        dataType: 'json',
+        url:"/cluster/set_cluster.do",
+        error:function(data){
+          alert("出错了！！:"+data.msg);
+        },
+        success:function(data){
+          alert(data.msg);
+        }
+      });
+    }
+  </script>
 </head>
 <body class=" theme-blue">
 
@@ -113,8 +130,7 @@
     3）重复步骤2，直到所有的顶点都属于同一个社团中。然后，根据需求选择相应的划分。此时可以所需要的社团数量选择划分，也可以选择模块度最优的划分。<br/><br/>
     </p>
 
-
-    <a href="http://localhost:8080/dataset/set_cluster.do?title=fast-cluster" class="btn btn-primary pull-right" style="margin-top:20px;">开始算法</a>
+    <span onclick="setCluster();" class="btn btn-primary pull-right" style="margin-top:20px;">开始算法</span>
 
     <%@include file="/jsp/common/footer.jsp"%>
   </div>

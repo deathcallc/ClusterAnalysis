@@ -9,6 +9,23 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html lang="en"><head>
   <%@include file="/jsp/common/commonPackage.jsp"%>
+
+  <script type="text/javascript">
+    function setCluster(){
+      $.ajax({
+        data:"title=ssc-cluster",
+        type:"GET",
+        dataType: 'json',
+        url:"/cluster/set_cluster.do",
+        error:function(data){
+          alert("出错了！！:"+data.msg);
+        },
+        success:function(data){
+          alert(data.msg);
+        }
+      });
+    }
+  </script>
 </head>
 <body class=" theme-blue">
 
@@ -175,7 +192,7 @@
     </p>
 
 
-    <a href="http://localhost:8080/dataset/set_cluster.do?title=ssc-cluster" class="btn btn-primary pull-right" style="margin-top:20px;">使用该算法</a>
+    <span onclick="setCluster();" class="btn btn-primary pull-right" style="margin-top:20px;">开始算法</span>
 
     <%@include file="/jsp/common/footer.jsp"%>
   </div>

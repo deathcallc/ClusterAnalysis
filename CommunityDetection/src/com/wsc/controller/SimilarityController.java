@@ -64,7 +64,7 @@ public class SimilarityController implements ApplicationContextAware {
     @RequestMapping(value = "/set_similarity", method = RequestMethod.GET)
     public
     @ResponseBody
-    CDMessage setDataset(@RequestParam("title") String title, Model model, HttpSession httpSession) {
+    CDMessage setSimilarity(@RequestParam("title") String title, Model model, HttpSession httpSession) {
         log.debug("set similarity measure title : " + title);
         CDMessage msg = new CDMessage();
 

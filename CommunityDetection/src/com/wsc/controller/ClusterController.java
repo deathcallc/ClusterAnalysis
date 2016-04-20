@@ -2,6 +2,7 @@ package com.wsc.controller;
 
 import com.wsc.config.SessionKeyCfg;
 import com.wsc.entity.AlgorithmFlag;
+import com.wsc.entity.CDMessage;
 import com.wsc.model.algorithm.IAlgorithmFlagOpt;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
@@ -62,10 +64,12 @@ public class ClusterController implements ApplicationContextAware {
         return "/cluster/ssc-cluster";
     }
 
-    @RequestMapping(value="/set_cluster", method= RequestMethod.GET)
-    public String setDataset(@RequestParam("title")String title, Model model, HttpSession httpSession)
-    {
+    @RequestMapping(value = "/set_cluster", method = RequestMethod.GET)
+    public @ResponseBody
+    CDMessage setCluster(@RequestParam("title") String title, Model model, HttpSession httpSession) {
+
         log.debug("set cluster title : "+title);
+        CDMessage msg = new CDMessage();
 
         Object ob = httpSession.getAttribute(SessionKeyCfg.FLAG);
         AlgorithmFlag flag;
@@ -81,22 +85,26 @@ public class ClusterController implements ApplicationContextAware {
             mAlgorithmFlagOpt.addDataSetFlag(flag, AlgorithmFlag.C_FAST_CLUSTER_FLAG);
             httpSession.setAttribute(SessionKeyCfg.FLAG, flag);
             log.debug("flag val : " + flag.getFlag());
-            return "/cluster/fast-cluster";
+            msg.setMsg("算法开始！");
+            return msg;
         }
         else if(title.equals("spectrul-cluster")){
-            mAlgorithmFlagOpt.addDataSetFlag(flag ,AlgorithmFlag.C_SPECTRUL_CLUSTER_FLAG);
+            mAlgorithmFlagOpt.addDataSetFlag(flag, AlgorithmFlag.C_SPECTRUL_CLUSTER_FLAG);
             httpSession.setAttribute(SessionKeyCfg.FLAG, flag);
-            log.debug("flag val : "+flag.getFlag());
-            return "/cluster/spectrul-cluster";
+            log.debug("flag val : " + flag.getFlag());
+            msg.setMsg("算法开始！");
+            return msg;
         }
         else if(title.equals("ssc-cluster")){
-            mAlgorithmFlagOpt.addDataSetFlag(flag ,AlgorithmFlag.C_SSC_CLUSTER_FLAG);
+            mAlgorithmFlagOpt.addDataSetFlag(flag, AlgorithmFlag.C_SSC_CLUSTER_FLAG);
             httpSession.setAttribute(SessionKeyCfg.FLAG, flag);
-            log.debug("flag val : "+flag.getFlag());
-            return "/cluster/ssc-cluster";
+            log.debug("flag val : " + flag.getFlag());
+            msg.setMsg("算法开始！");
+            return msg;
         }
         else{
-            return "/index.do";
+            msg.setMsg("参数错误！");
+            return msg;
         }
     }
 

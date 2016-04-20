@@ -9,6 +9,23 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html lang="en"><head>
   <%@include file="/jsp/common/commonPackage.jsp"%>
+
+  <script type="text/javascript">
+    function setCluster(){
+      $.ajax({
+        data:"title=spectrul-cluster",
+        type:"GET",
+        dataType: 'json',
+        url:"/cluster/set_cluster.do",
+        error:function(data){
+          alert("出错了！！:"+data.msg);
+        },
+        success:function(data){
+          alert(data.msg);
+        }
+      });
+    }
+  </script>
 </head>
 <body class=" theme-blue">
 
@@ -116,7 +133,7 @@
     这就导致了谱聚类的可伸缩性差。在处理对象较多的数据集时，谱聚类往往需要花费较长的时间。<br/><br/>
 
 
-    <a href="http://localhost:8080/dataset/set_cluster.do?title=spectrul-cluster" class="btn btn-primary pull-right" style="margin-top:20px;">开始算法</a>
+    <span onclick="setCluster();" class="btn btn-primary pull-right" style="margin-top:20px;">开始算法</span>
 
     <%@include file="/jsp/common/footer.jsp"%>
   </div>
