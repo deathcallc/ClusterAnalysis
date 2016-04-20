@@ -10,6 +10,23 @@
 <html lang="en"><head>
   <%@include file="/jsp/common/commonPackage.jsp"%>
 
+  <script type="text/javascript">
+    function setSimilarity(){
+      $.ajax({
+        data:"title=euc",
+        type:"GET",
+        dataType: 'json',
+        url:"/similarity/set_similarity.do",
+        error:function(data){
+          alert("出错了！！:"+data.msg);
+        },
+        success:function(data){
+          alert(data.msg);
+        }
+      });
+    }
+  </script>
+
 </head>
 <body class=" theme-blue">
 
@@ -109,7 +126,7 @@
     <img src="<c:url value="/resource/images/equation/euc-distance/euc-n.png"/>" style="margin-left:300px;" /><br/><br/>
 
 
-    <a href="index.html" class="btn btn-primary pull-right" style="margin-top:20px;">使用该度量方法</a>
+    <span onclick="setSimilarity();" class="btn btn-primary pull-right" style="margin-top:20px;">使用该度量方法</span>
 
     <%@include file="/jsp/common/footer.jsp"%>
   </div>

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/com/wsc/controller/ClusterController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/wsc/controller/DataSetController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/wsc/controller/DisplayController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/wsc/controller/IndexController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/wsc/controller/PreprocessController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/wsc/controller/SimilarityController.java" charset="UTF-8" />
   </component>
 </project>
