@@ -13,5 +13,5 @@ public abstract class AbstractComponent {
         return description;
     }
 
-    public abstract IDataSet doMethod();
+    public abstract boolean doMethod(IDataSet dateSet);
 }

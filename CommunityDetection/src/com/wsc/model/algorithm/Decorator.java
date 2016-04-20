@@ -13,4 +13,16 @@ public abstract class Decorator extends AbstractComponent{
         mPrev = decor;
     }
 
+    public boolean before() {
+        return true;
+    }
+
+    public boolean doMethod(IDataSet dateSet) {
+        return true;
+    }
+
+    public boolean after() {
+        return true;
+    }
+
 }
