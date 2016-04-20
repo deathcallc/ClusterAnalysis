@@ -66,7 +66,7 @@ public class SimilarityController implements ApplicationContextAware {
     @ResponseBody
     CDMessage setSimilarity(@RequestParam("title") String title, Model model, HttpSession httpSession) {
         log.debug("set similarity measure title : " + title);
-        CDMessage msg = new CDMessage();
+        CDMessage msg = (CDMessage) mApplicationContext.getBean("CDMessage");
 
         Object ob = httpSession.getAttribute(SessionKeyCfg.FLAG);
         AlgorithmFlag flag;

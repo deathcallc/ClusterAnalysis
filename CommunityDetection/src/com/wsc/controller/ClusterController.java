@@ -69,7 +69,7 @@ public class ClusterController implements ApplicationContextAware {
     CDMessage setCluster(@RequestParam("title") String title, Model model, HttpSession httpSession) {
 
         log.debug("set cluster title : "+title);
-        CDMessage msg = new CDMessage();
+        CDMessage msg = (CDMessage) mApplicationContext.getBean("CDMessage");
 
         Object ob = httpSession.getAttribute(SessionKeyCfg.FLAG);
         AlgorithmFlag flag;

@@ -66,7 +66,7 @@ public class PreprocessController implements ApplicationContextAware {
     @RequestMapping(value = "/set_preprocess", method = RequestMethod.GET)
     public @ResponseBody CDMessage setPreprocess(@RequestParam("title") String title, Model model, HttpSession httpSession) {
         log.debug("set preprocess title : " + title);
-        CDMessage msg = new CDMessage();
+        CDMessage msg = (CDMessage) mApplicationContext.getBean("CDMessage");
 
         Object ob = httpSession.getAttribute(SessionKeyCfg.FLAG);
         AlgorithmFlag flag;

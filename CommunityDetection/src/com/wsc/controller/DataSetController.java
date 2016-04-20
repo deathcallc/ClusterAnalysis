@@ -99,7 +99,7 @@ public class DataSetController implements ApplicationContextAware {
     @RequestMapping(value = "/set_dataset", method = RequestMethod.GET)
     public @ResponseBody CDMessage setDataset(@RequestParam("title") String title, Model model, HttpSession httpSession) {
         log.debug("set dataset title : " + title);
-        CDMessage msg = new CDMessage();
+        CDMessage msg = (CDMessage) mApplicationContext.getBean("CDMessage");
 
         Object ob = httpSession.getAttribute(SessionKeyCfg.FLAG);
         AlgorithmFlag flag;
