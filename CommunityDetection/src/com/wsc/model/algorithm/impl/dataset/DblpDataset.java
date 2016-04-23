@@ -10,6 +10,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class DblpDataset extends DataSetComponent {
 
+    public DblpDataset(){
+        this.description = "DblpDataset";
+    }
+
     public boolean doMethod(IDataSet dateSet){
         return true;
     }

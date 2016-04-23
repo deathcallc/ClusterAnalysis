@@ -13,6 +13,18 @@ public abstract class Decorator extends AbstractComponent{
         mPrev = decor;
     }
 
+    public Decorator(){
+    }
+
+    public void setmPrev(AbstractComponent mPrev) {
+        this.mPrev = mPrev;
+    }
+
+    @Override
+    public String getDescription() {
+        return mPrev.getDescription() + " / " + this.description;
+    }
+
     public boolean before() {
         return true;
     }

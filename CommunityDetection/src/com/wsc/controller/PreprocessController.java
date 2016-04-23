@@ -85,7 +85,7 @@ public class PreprocessController implements ApplicationContextAware {
                 msg.setMsg("取消设置！");
             }
             else {
-                mAlgorithmFlagOpt.addDataSetFlag(flag, AlgorithmFlag.PP_KCORE_FLAG);
+                mAlgorithmFlagOpt.addPreprocessFlag(flag, AlgorithmFlag.PP_KCORE_FLAG);
                 httpSession.setAttribute(SessionKeyCfg.FLAG, flag);
                 log.debug("flag val : " + flag.getFlag());
                 msg.setMsg("设置成功！");
@@ -99,7 +99,7 @@ public class PreprocessController implements ApplicationContextAware {
                 msg.setMsg("取消设置！");
             }
             else {
-                mAlgorithmFlagOpt.addDataSetFlag(flag, AlgorithmFlag.PP_LAPLACE_FLAG);
+                mAlgorithmFlagOpt.addPreprocessFlag(flag, AlgorithmFlag.PP_LAPLACE_FLAG);
                 httpSession.setAttribute(SessionKeyCfg.FLAG, flag);
                 log.debug("flag val : " + flag.getFlag());
                 msg.setMsg("设置成功！");
@@ -113,7 +113,7 @@ public class PreprocessController implements ApplicationContextAware {
                 msg.setMsg("取消设置！");
             }
             else {
-                mAlgorithmFlagOpt.addDataSetFlag(flag, AlgorithmFlag.PP_LAPLACE_INVERSE_FLAG);
+                mAlgorithmFlagOpt.addPreprocessFlag(flag, AlgorithmFlag.PP_LAPLACE_INVERSE_FLAG);
                 httpSession.setAttribute(SessionKeyCfg.FLAG, flag);
                 log.debug("flag val : " + flag.getFlag());
                 msg.setMsg("设置成功！");

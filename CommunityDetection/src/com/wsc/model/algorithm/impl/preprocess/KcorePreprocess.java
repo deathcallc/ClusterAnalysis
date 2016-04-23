@@ -14,4 +14,8 @@ public class KcorePreprocess extends Decorator {
         super(decor);
         this.description = "KcorePreprocess";
     }
+
+    public KcorePreprocess() {
+        this.description = "KcorePreprocess";
+    }
 }

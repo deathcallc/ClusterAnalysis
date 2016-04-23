@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/src/com/wsc/controller/PreprocessController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/wsc/controller/SimilarityController.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/wsc/model/algorithm/Decorator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/wsc/service/impl/AlgorithmService.java" charset="UTF-8" />
   </component>
 </project>

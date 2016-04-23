@@ -14,4 +14,8 @@ public class MaDistanceMeasure extends Decorator{
         super(decor);
         this.description = "MaDistanceMeasure";
     }
+
+    public MaDistanceMeasure() {
+        this.description = "MaDistanceMeasure";
+    }
 }

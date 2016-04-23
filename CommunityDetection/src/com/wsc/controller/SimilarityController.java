@@ -78,19 +78,19 @@ public class SimilarityController implements ApplicationContextAware {
         }
 
         if (title.equals("cos")) {
-            mAlgorithmFlagOpt.addDataSetFlag(flag, AlgorithmFlag.S_COS_FLAG);
+            mAlgorithmFlagOpt.addSimilarityFlag(flag, AlgorithmFlag.S_COS_FLAG);
             httpSession.setAttribute(SessionKeyCfg.FLAG, flag);
             log.debug("flag val : " + flag.getFlag());
             msg.setMsg("设置成功！");
             return msg;
         } else if (title.equals("euc")) {
-            mAlgorithmFlagOpt.addDataSetFlag(flag, AlgorithmFlag.S_EUC_FLAG);
+            mAlgorithmFlagOpt.addSimilarityFlag(flag, AlgorithmFlag.S_EUC_FLAG);
             httpSession.setAttribute(SessionKeyCfg.FLAG, flag);
             log.debug("flag val : " + flag.getFlag());
             msg.setMsg("设置成功！");
             return msg;
         } else if (title.equals("ma")) {
-            mAlgorithmFlagOpt.addDataSetFlag(flag, AlgorithmFlag.S_MA_FLAG);
+            mAlgorithmFlagOpt.addSimilarityFlag(flag, AlgorithmFlag.S_MA_FLAG);
             httpSession.setAttribute(SessionKeyCfg.FLAG, flag);
             log.debug("flag val : " + flag.getFlag());
             msg.setMsg("设置成功！");

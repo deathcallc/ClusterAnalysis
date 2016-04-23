@@ -4,6 +4,7 @@ import com.wsc.config.SessionKeyCfg;
 import com.wsc.entity.AlgorithmFlag;
 import com.wsc.entity.CDMessage;
 import com.wsc.model.algorithm.IAlgorithmFlagOpt;
+import com.wsc.service.IAlgorithmService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
@@ -33,9 +34,16 @@ public class ClusterController implements ApplicationContextAware {
 
     private ApplicationContext mApplicationContext;
 
+    private IAlgorithmService mAlgorithmService;
+
     @Resource(name="algorithmFlagOpt")
     public void setmAlgorithmFlagOpt(IAlgorithmFlagOpt mAlgorithmFlagOpt) {
         this.mAlgorithmFlagOpt = mAlgorithmFlagOpt;
+    }
+
+    @Resource(name="algorithmService")
+    public void setmAlgorithmService(IAlgorithmService mAlgorithmService) {
+        this.mAlgorithmService = mAlgorithmService;
     }
 
     @Override
@@ -82,30 +90,60 @@ public class ClusterController implements ApplicationContextAware {
         }
 
         if(title.equals("fast-cluster")){
-            mAlgorithmFlagOpt.addDataSetFlag(flag, AlgorithmFlag.C_FAST_CLUSTER_FLAG);
+            mAlgorithmFlagOpt.addClusterFlag(flag, AlgorithmFlag.C_FAST_CLUSTER_FLAG);
             httpSession.setAttribute(SessionKeyCfg.FLAG, flag);
             log.debug("flag val : " + flag.getFlag());
-            msg.setMsg("算法开始！");
-            return msg;
+
+            if(mAlgorithmService.validateFlag(flag)) {
+                msg.setMsg("算法开始！");
+                mAlgorithmService.genAlgorithmMethod(flag);
+                return msg;
+            } else {
+                mAlgorithmFlagOpt.removeFlag(flag, AlgorithmFlag.C_FAST_CLUSTER_FLAG);
+                msg.setMsg("算法参数错误或者不完全！");
+                log.debug("flag is invalid");
+                return msg;
+            }
+
         }
         else if(title.equals("spectrul-cluster")){
-            mAlgorithmFlagOpt.addDataSetFlag(flag, AlgorithmFlag.C_SPECTRUL_CLUSTER_FLAG);
+            mAlgorithmFlagOpt.addClusterFlag(flag, AlgorithmFlag.C_SPECTRUL_CLUSTER_FLAG);
             httpSession.setAttribute(SessionKeyCfg.FLAG, flag);
             log.debug("flag val : " + flag.getFlag());
-            msg.setMsg("算法开始！");
-            return msg;
+
+            if(mAlgorithmService.validateFlag(flag)) {
+                msg.setMsg("算法开始！");
+                mAlgorithmService.genAlgorithmMethod(flag);
+                return msg;
+            } else {
+                mAlgorithmFlagOpt.removeFlag(flag, AlgorithmFlag.C_SPECTRUL_CLUSTER_FLAG);
+                msg.setMsg("算法参数错误或者不完全！");
+                log.debug("flag is invalid");
+                return msg;
+            }
         }
         else if(title.equals("ssc-cluster")){
-            mAlgorithmFlagOpt.addDataSetFlag(flag, AlgorithmFlag.C_SSC_CLUSTER_FLAG);
+            mAlgorithmFlagOpt.addClusterFlag(flag, AlgorithmFlag.C_SSC_CLUSTER_FLAG);
             httpSession.setAttribute(SessionKeyCfg.FLAG, flag);
             log.debug("flag val : " + flag.getFlag());
-            msg.setMsg("算法开始！");
-            return msg;
+
+            if(mAlgorithmService.validateFlag(flag)) {
+                msg.setMsg("算法开始！");
+                mAlgorithmService.genAlgorithmMethod(flag);
+                return msg;
+            } else {
+                mAlgorithmFlagOpt.removeFlag(flag, AlgorithmFlag.C_SSC_CLUSTER_FLAG);
+                msg.setMsg("算法参数错误或者不完全！");
+                log.debug("flag is invalid");
+                return msg;
+            }
         }
         else{
             msg.setMsg("参数错误！");
             return msg;
         }
     }
+
+
 
 }

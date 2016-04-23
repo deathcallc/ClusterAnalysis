@@ -10,6 +10,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class Sp500Dataset extends DataSetComponent {
 
+    public Sp500Dataset(){
+        this.description = "Sp500Dataset";
+    }
+
     public boolean doMethod(IDataSet dateSet){
         return true;
     }

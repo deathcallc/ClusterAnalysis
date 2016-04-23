@@ -15,4 +15,8 @@ public class SscCluster extends Decorator {
         super(decor);
         this.description = "SscCluster";
     }
+
+    public SscCluster() {
+        this.description = "SscCluster";
+    }
 }

@@ -14,4 +14,8 @@ public class CosDistanceMeasure extends Decorator {
         super(decor);
         this.description = "CosDistanceMeasure";
     }
+
+    public CosDistanceMeasure() {
+        this.description = "CosDistanceMeasure";
+    }
 }

@@ -14,4 +14,8 @@ public class LaplaceInversePreprocess extends Decorator {
         super(decor);
         this.description = "LaplaceInversePreprocess";
     }
+
+    public LaplaceInversePreprocess() {
+        this.description = "LaplaceInversePreprocess";
+    }
 }

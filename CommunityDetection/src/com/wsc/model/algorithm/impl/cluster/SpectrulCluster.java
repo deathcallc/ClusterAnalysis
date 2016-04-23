@@ -15,4 +15,8 @@ public class SpectrulCluster extends Decorator {
         super(decor);
         this.description = "SpectrulCluster";
     }
+
+    public SpectrulCluster() {
+        this.description = "SpectrulCluster";
+    }
 }

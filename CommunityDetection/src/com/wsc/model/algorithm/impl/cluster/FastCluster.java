@@ -15,4 +15,8 @@ public class FastCluster extends Decorator {
         super(decor);
         this.description = "FastCluster";
     }
+
+    public FastCluster() {
+        this.description = "FastCluster";
+    }
 }

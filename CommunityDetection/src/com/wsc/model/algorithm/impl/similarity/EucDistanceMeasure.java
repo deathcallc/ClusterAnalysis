@@ -14,4 +14,8 @@ public class EucDistanceMeasure extends Decorator {
         super(decor);
         this.description = "EucDistanceMeasure";
     }
+
+    public EucDistanceMeasure() {
+        this.description = "EucDistanceMeasure";
+    }
 }

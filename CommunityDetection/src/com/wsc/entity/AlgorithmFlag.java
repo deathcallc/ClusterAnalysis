@@ -35,6 +35,51 @@ public class AlgorithmFlag {
             return false;
     }
 
+    public boolean hasOneBits(long flag){
+        return hasNBits(flag, 1);
+    }
+
+    public boolean notHasBits(long flag){
+        return hasNBits(flag, 0);
+    }
+
+    /**
+     * 返回mFlag与flag所有位上值相同的个数
+     * @param flag
+     * @return
+     */
+    public int getBits(long flag){
+        long f = mFlag & flag;
+        int count = 0;
+        while(f > 0){
+
+            if((f&1) == 1)
+            {
+                count++;
+            }
+
+            f = f >> 1;
+        }
+        return count;
+    }
+
+    /**
+     * 标志mFlag与flag位数相同的个数如果为n则返回true
+     * @param flag
+     * @param n
+     * @return
+     */
+    public boolean hasNBits(long flag, int n) {
+
+        int count = getBits(flag);
+
+        if(count == n)
+            return true;
+        else
+            return false;
+
+    }
+
     public void addFlag(long flag) {
         mFlag = mFlag | flag;
     }
