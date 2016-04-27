@@ -103,13 +103,24 @@
 
         <h2 class="page">社团分析</h2>
         <img src="<c:url value="/resource/images/preview/8.png"/>" class="pull-left inline-img hidden-xs" style="max-width: 35%; margin-top: -4em; margin-right: 2.25em;">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ligula sed est aliquam accumsan. Phasellus eleifend fermentum ullamcorper. Nulla mi mi, egestas id tortor non, auctor consectetur mi. Praesent in ante dolor. Proin pharetra nec augue quis imperdiet. Vestibulum ullamcorper nulla sodales, scelerisque velit et, adipiscing arcu. Suspendisse eu accumsan neque. Suspendisse potenti. Quisque non lectus elementum elit convallis ornare aliquam sit amet metus. Vestibulum ut turpis ipsum. Sed ut malesuada enim, in interdum lorem. Nulla facilisi.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ligula sed est aliquam accumsan. Phasellus eleifend fermentum ullamcorper.</p>
+        <p>人们社交行为或者合作关系通常会产生广泛而多样的社团结构关系，
+          例如：家庭、工作、朋友圈和论文合作关系等，同时还创造出了很多虚拟的组织
+          ，例如在线社团。在过去的很长时间里，人们对社交网络中隐含的社团结构进行了大量的研究。</p>
+        <p>社团发现的研究具有十分重要的意义。根据顶点的位置或者属性，通过识别
+          簇的边界能够对节点进行分类，并从中揭示出一些重要的节点。例如簇的中心节
+          点与簇的其他节点具有大量共享的边，这些节点保证了簇的稳定性，而处于两个
+          簇之间的节点具有中介性，对于两个簇之间的信息交互以及关系起着重要的作用。
+          簇的划分以及重要节点的识别对于社交网络或代谢网络都有十分重要的意义。</p>
 
         <h2 class="page" style="clear:both;">数据展示</h2>
         <img src="<c:url value="/resource/images/preview/d3.png"/>" class="pull-right inline-img hidden-xs" style="max-width: 35%; margin-top: -4em; margin-left: 1em;">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ligula sed est aliquam accumsan. Phasellus eleifend fermentum ullamcorper. Nulla mi mi, egestas id tortor non, auctor consectetur mi. Praesent in ante dolor. Proin pharetra nec augue quis imperdiet. Vestibulum ullamcorper nulla sodales, scelerisque velit et, adipiscing arcu. Suspendisse eu accumsan neque. Suspendisse potenti. Quisque non lectus elementum elit convallis ornare aliquam sit amet metus. Vestibulum ut turpis ipsum. Sed ut malesuada enim, in interdum lorem. Nulla facilisi.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ligula sed est aliquam accumsan. Phasellus eleifend fermentum ullamcorper. Nulla mi mi, egestas id tortor non, auctor consectetur mi.</p>
+        <p>系统采用了多种算法结果展示的方式。其中，系统采用了D3库实现网络结构的可视化功能。
+          当用户通过本系统完成相应的算法时，除了可以通过已有的几种方式获取算法结果以外，还能够通过网络结构的可视化功能获取算法结果。
+          算法结果的可视化功能，使得用户能够更加直观地了解到算法计算得到的网络结构以及相应的网络特征，
+          从而更好地指导用户的后续实验工作。</p>
+        <p>D3库是基于数据的文档操作javascript开源库，D3能够把数据和HTML、SVG、CSS结合起来，创造出可交互的数据图表。
+          D3 是最流行的可视化库之一，它被很多其他的表格插件所使用。它允许绑定任意数据到DOM，然后将数据驱动转换应用到Document中。
+          你可以使用它用一个数组创建基本的HTML表格，或是利用它的流体过度和交互，用相似的数据创建惊人的SVG条形图。</p>
 
       </div>
 
@@ -121,12 +132,10 @@
           <div class="product">
             <h2 class="text-info">可扩展的数据接入</h2>
             <ul>
-              <li class="price">$8.99 / month</li>
-              <li class="info">For single user teams</li>
-              <li>1 user</li>
-              <li>Limited Access</li>
-              <li>5MB of space</li>
-              <li>No Support</li>
+              <li class="price">预设数据</li>
+              <li class="info">灵活扩展</li>
+              <li>数据清洗</li>
+              <li>非侵入式扩展</li>
             </ul>
             <!--    <p class="call-to-action"><a class="btn btn-primary" href="#"><i class="icon-ok"></i> Select plan</a></p> -->
           </div>
@@ -135,12 +144,10 @@
           <div class="product">
             <h2 class="text-info">灵活的算法组合</h2>
             <ul>
-              <li class="price">$24.99 / month</li>
-              <li class="info">For medium sized teams</li>
-              <li>20 users</li>
-              <li>Unlimited access</li>
-              <li>1GB of space</li>
-              <li>Email Support</li>
+              <li class="price">算法分步组合</li>
+              <li class="info">算法灵活可选</li>
+              <li>预设多种算法</li>
+              <li>用户任意扩展</li>
             </ul>
             <!--    <p class="call-to-action"><a class="btn btn-primary" href="#"><i class="icon-ok"></i> Select plan</a></p> -->
           </div>
@@ -149,12 +156,10 @@
           <div class="product">
             <h2 class="text-info">全面的结果分析</h2>
             <ul>
-              <li class="price">$75.99 / month</li>
-              <li class="info">For very large teams</li>
-              <li>50 users</li>
-              <li>Unlimited access</li>
-              <li>10GB of space</li>
-              <li>Priority support</li>
+              <li class="price">分类结果展示</li>
+              <li class="info">结果分析展示</li>
+              <li>可视化展示</li>
+              <li>自定义展示</li>
             </ul>
             <!--    <p class="call-to-action"><a class="btn btn-primary" href="#"><i class="icon-ok"></i> Select plan</a></p> -->
           </div>
@@ -163,12 +168,10 @@
           <div class="product">
             <h2 class="text-info">可视化的结果展示</h2>
             <ul>
-              <li class="price">Contact us for pricing</li>
-              <li class="info">For very large enterprises</li>
-              <li>Unlimited users</li>
-              <li>Unlimited access</li>
-              <li>Unlimited space</li>
-              <li>24/7 Phone Support</li>
+              <li class="price">网状结构展示</li>
+              <li class="info">兼容性强</li>
+              <li>用户可交互</li>
+              <li>界面友好</li>
             </ul>
             <!--    <p class="call-to-action"><a class="btn" href="#"><i class="icon-ok"></i> Contact Sales</a></p> -->
           </div>
@@ -177,201 +180,6 @@
         <div style="clear: both;"></div>
       </div>
 
-      <div class="well banner">
-        <h3 style="margin-top:0px;">A basic plan is also available</h3>
-        <a class="btn btn-primary btn-sm well-btn pull-right" style="margin-top: -1.75em;">Get Basic</a>
-        <p style="margin-bottom:0px;">The basic plan is great for single person teams. Just pay a small yearly fee.</p>
-      </div>
-    </div>
-
-
-
-    <footer>
-      <hr>
-
-      <!-- Purchase a site license to remove this link from the footer: http://www.portnine.com/bootstrap-themes -->
-      <p class="pull-right">A <a href="http://www.portnine.com/bootstrap-themes" target="_blank">Free Bootstrap Theme</a> by <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
-      <p>Â© 2014 <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
-    </footer>
-  </div>
-
-
-
-
-
-  <div class="panel panel-default">
-    <a href="#page-stats" class="panel-heading" data-toggle="collapse">Latest Stats</a>
-    <div id="page-stats" class="panel-collapse panel-body collapse in">
-
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="knob-container">
-            <input class="knob" data-width="200" data-min="0" data-max="3000" data-displayPrevious="true" value="2500" data-fgColor="#92A3C2" data-readOnly=true;>
-            <h3 class="text-muted text-center">Accounts</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="knob-container">
-            <input class="knob" data-width="200" data-min="0" data-max="4500" data-displayPrevious="true" value="3299" data-fgColor="#92A3C2" data-readOnly=true;>
-            <h3 class="text-muted text-center">Subscribers</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="knob-container">
-            <input class="knob" data-width="200" data-min="0" data-max="2700" data-displayPrevious="true" value="1840" data-fgColor="#92A3C2" data-readOnly=true;>
-            <h3 class="text-muted text-center">Pending</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="knob-container">
-            <input class="knob" data-width="200" data-min="0" data-max="15000" data-displayPrevious="true" value="10067" data-fgColor="#92A3C2" data-readOnly=true;>
-            <h3 class="text-muted text-center">Completed</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-6 col-md-6">
-      <div class="panel panel-default">
-        <div class="panel-heading no-collapse">Not Collapsible<span class="label label-warning">+10</span></div>
-        <table class="table table-bordered table-striped">
-          <thead>
-          <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Username</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td>Mark</td>
-            <td>Tompson</td>
-            <td>the_mark7</td>
-          </tr>
-          <tr>
-            <td>Ashley</td>
-            <td>Jacobs</td>
-            <td>ash11927</td>
-          </tr>
-          <tr>
-            <td>Audrey</td>
-            <td>Ann</td>
-            <td>audann84</td>
-          </tr>
-          <tr>
-            <td>John</td>
-            <td>Robinson</td>
-            <td>jr5527</td>
-          </tr>
-          <tr>
-            <td>Aaron</td>
-            <td>Butler</td>
-            <td>aaron_butler</td>
-          </tr>
-          <tr>
-            <td>Chris</td>
-            <td>Albert</td>
-            <td>cab79</td>
-          </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-6">
-      <div class="panel panel-default">
-        <a href="#widget1container" class="panel-heading" data-toggle="collapse">Collapsible </a>
-        <div id="widget1container" class="panel-body collapse in">
-          <h2>Here's a Tip</h2>
-          <p>This template was developed with <a href="http://middlemanapp.com/" target="_blank">Middleman</a> and includes .erb layouts and views.</p>
-          <p>All of the views you see here (sign in, sign up, users, etc) are already split up so you don't have to waste your time doing it yourself!</p>
-          <p>The layout.erb file includes the header, footer, and side navigation and all of the views are broken out into their own files.</p>
-          <p>If you aren't using Ruby, there is also a set of plain HTML files for each page, just like you would expect.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-6 col-md-6">
-      <div class="panel panel-default">
-        <div class="panel-heading no-collapse">
-                <span class="panel-icon pull-right">
-                    <a href="#" class="demo-cancel-click" rel="tooltip" title="Click to refresh"><i class="fa fa-refresh"></i></a>
-                </span>
-
-          Needed to Close
-        </div>
-        <table class="table list">
-          <tbody>
-          <tr>
-            <td>
-              <a href="#"><p class="title">Care Hospital</p></a>
-              <p class="info">Sales Rating: 86%</p>
-            </td>
-            <td>
-              <p>Date: 7/19/2012</p>
-              <a href="#">View Transaction</a>
-            </td>
-            <td>
-              <p class="text-danger h3 pull-right" style="margin-top: 12px;">$20,500</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a href="#"><p class="title">Custom Eyesight</p></a>
-              <p class="info">Sales Rating: 58%</p>
-            </td>
-            <td>
-              <p>Date: 7/19/2012</p>
-              <a href="#">View Transaction</a>
-            </td>
-            <td>
-              <p class="text-danger h3 pull-right" style="margin-top: 12px;">$12,600</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a href="#"><p class="title">Clear Dental</p></a>
-              <p class="info">Sales Rating: 76%</p>
-            </td>
-            <td>
-              <p>Date: 7/19/2012</p>
-              <a href="#">View Transaction</a>
-            </td>
-            <td>
-              <p class="text-danger h3 pull-right" style="margin-top: 12px;">$2,500</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a href="#"><p class="title">Safe Insurance</p></a>
-              <p class="info">Sales Rating: 82%</p>
-            </td>
-            <td>
-              <p>Date: 7/19/2012</p>
-              <a href="#">View Transaction</a>
-            </td>
-            <td>
-              <p class="text-danger h3 pull-right" style="margin-top: 12px;">$22,400</p>
-            </td>
-          </tr>
-
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-6">
-      <div class="panel panel-default">
-        <a href="#widget2container" class="panel-heading" data-toggle="collapse">Collapsible </a>
-        <div id="widget2container" class="panel-body collapse in">
-          <h2>Built with Less</h2>
-          <p>The CSS is built with Less. There is a compiled version included if you prefer plain CSS.</p>
-          <p>Fava bean jícama seakale beetroot courgette shallot amaranth pea garbanzo carrot radicchio peanut leek pea sprouts arugula brussels sprout green bean. Spring onion broccoli chicory shallot winter purslane pumpkin gumbo cabbage squash beet greens lettuce celery. Gram zucchini swiss chard mustard burdock radish brussels sprout groundnut. Asparagus horseradish beet greens broccoli brussels.</p>
-          <p><a class="btn btn-primary">Learn more »</a></p>
-        </div>
-      </div>
     </div>
   </div>
 
