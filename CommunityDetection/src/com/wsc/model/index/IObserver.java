@@ -5,5 +5,5 @@ package com.wsc.model.index;
  */
 public interface IObserver {
 
-    public void update(Subject subject);
+    public void update(CDSubject subject);
 }

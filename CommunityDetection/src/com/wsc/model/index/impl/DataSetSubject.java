@@ -1,12 +1,14 @@
 package com.wsc.model.index.impl;
 
 import com.wsc.model.dataset.IDataSet;
-import com.wsc.model.index.Subject;
+import com.wsc.model.index.CDSubject;
+import org.springframework.stereotype.Component;
 
 /**
  * Created by xiaowei on 2016/4/7.
  */
-public class DataSetSubject extends Subject {
+@Component
+public class DataSetSubject extends CDSubject {
 
     private IDataSet mDataSet;
 
@@ -16,6 +18,7 @@ public class DataSetSubject extends Subject {
 
     public void setmDataSet(IDataSet mDataSet) {
         this.mDataSet = mDataSet;
+        this.notifyObservers();
     }
 
 }

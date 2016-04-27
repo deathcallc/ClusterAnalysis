@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by xiaowei on 2016/4/7.
  */
-public abstract class Subject {
+public abstract class CDSubject {
 
     private List<IObserver> observers = new ArrayList<IObserver>();
 
