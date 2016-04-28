@@ -33,7 +33,7 @@ public class IndexService implements IIndexService, ApplicationContextAware {
     }
 
     public IndexService(){
-        IObserver weightedF1 = (IObserver)mApplicationContext.getBean("weightedF1Observer");
+    /*    IObserver weightedF1 = (IObserver)mApplicationContext.getBean("weightedF1Observer");
         IObserver rand = (IObserver)mApplicationContext.getBean("randObserver");
         IObserver jaccard = (IObserver)mApplicationContext.getBean("jaccardObserver");
         IObserver adjustedRand = (IObserver)mApplicationContext.getBean("adjustedRandObserver");
@@ -41,7 +41,7 @@ public class IndexService implements IIndexService, ApplicationContextAware {
         mSubject.attach(weightedF1);
         mSubject.attach(rand);
         mSubject.attach(jaccard);
-        mSubject.attach(adjustedRand);
+        mSubject.attach(adjustedRand);*/
     }
 
     @Override
